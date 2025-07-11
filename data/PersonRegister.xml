@@ -79,7 +79,18 @@
                </listBibl>
             </person>
             
-            
+            <person xml:id="NicolausUnbehuen">
+               <name xml:lang="lat">Nicolaus Unbehuen</name>
+               <name xml:lang="lat">Nicolaus Umbehauen</name>
+               <birth when="1400"/>
+               <death notBefore="1500"/>
+               <faith subtype="OP" type="religious">Dominican</faith>
+               <note>Active in Ulm, probably at the Dominican convent, in the third quarter of the fifteenth century.</note>
+               <occupation role="copyst" ref="mss.xml#Bamberg_StaatsbibliothekBamberg_Msc.Patr.150"></occupation>
+               <listBibl> <!-- mandatory -->
+                  <bibl>Leitschuh, I.1, 532-533.</bibl>
+               </listBibl>
+            </person>
             
          </listPerson>
       </body>
