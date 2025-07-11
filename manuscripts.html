@@ -105,6 +105,43 @@
 		let behaviors = {
           "tei": {
 			 // "teiHeader": null, // No specific behavior for teiHeader
+                "note": function(e) {
+					// Return the note content without parentheses
+					let container = document.createElement('span');
+					container.className = 'note-content';
+					container.innerHTML = e.innerHTML;
+					return container;
+				},
+				"origDate": function(e) {
+					const when = e.getAttribute('when');
+					const from = e.getAttribute('from');
+					const to = e.getAttribute('to');
+					const notBefore = e.getAttribute('notBefore');
+					const notAfter = e.getAttribute('notAfter');
+					
+					let container = document.createElement('span');
+					container.className = 'origDate-info';
+					
+					if (when) {
+						container.textContent = when;
+					} else if (from && to) {
+						container.textContent = `${from}-${to}`;
+					} else if (from) {
+						container.textContent = `from ${from}`;
+					} else if (to) {
+						container.textContent = `to ${to}`;
+					} else if (notBefore && notAfter) {
+						container.textContent = `${notBefore}-${notAfter}`;
+					} else if (notBefore) {
+						container.textContent = `after ${notBefore}`;
+					} else if (notAfter) {
+						container.textContent = `before ${notAfter}`;
+					} else {
+						container.textContent = e.textContent;
+					}
+					
+					return container;
+				},
                 "msItem": function(e) {
         // Create a new container
         let container = document.createElement("div");
@@ -168,6 +205,17 @@ document.addEventListener("DOMContentLoaded", () => {
         VersorisDropdown.appendChild(listItem);
       }
     });
+
+    // Handle anchor navigation after content is loaded
+    if (window.location.hash) {
+      const targetId = window.location.hash.substring(1);
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        setTimeout(() => {
+          targetElement.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
+    }
   });
 });
 </script>

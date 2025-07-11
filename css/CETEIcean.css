@@ -691,7 +691,6 @@ tei-incident {
   /* Empty Rule Set */
 }
 tei-incipit {
-  font-style: italic;
 }
 tei-index {
   /* Empty Rule Set */
@@ -1086,8 +1085,13 @@ tei-orgName {
 tei-origDate {
   /* Empty Rule Set */
 }
-tei-origPlace {
+tei-origDate:before {
   font-weight: bold;
+  content: "Origin Date: ";
+}
+
+tei-origPlace {
+
 }
 tei-origPlace:before {
   font-weight: bold;
@@ -1256,7 +1260,7 @@ tei-quotation {
   /* Empty Rule Set */
 }
 tei-quote {
-tei-font-style:italic;
+
 }
 /*
 tei-quote {

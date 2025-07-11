@@ -323,12 +323,12 @@
                   <msItem xml:id="Basel_UB_F-II-14_QsM">
                      <locus from="2ra" to="36vb"/>
                      <title ref="workID">QsMetaph</title>
-                     <note type="content">I-VI</note>
-                     <quote source="7ra">Et hec de questione, et per consequens de toto primo libro
-                        Metaphysice, finito et finato(?) per me Iacobum Vngelink de Stendal,
-                        clericum dyocesis Halbertstadensis, Parisius in collegio Tornacensi, die
-                        ultima mensis Octobris, vel in vigilia omnium sanctorum, anno Domini M°
-                        CCCC° LXVJ° hora quasi undecima in meridie</quote>
+                     <note type="content">I-VI: <quote source="7ra">Et hec de questione, et per
+                           consequens de toto primo libro Metaphysice, finito et finato(?) per me
+                           Iacobum Vngelink de Stendal, clericum dyocesis Halbertstadensis, Parisius
+                           in collegio Tornacensi, die ultima mensis Octobris, vel in vigilia omnium
+                           sanctorum, anno Domini M° CCCC° LXVJ° hora quasi undecima in
+                           meridie</quote></note>
                      <explicit>Et hec de sexto Metaphisicorum, die quinta mensis Decembris, hoc est
                         in vigilia sancti Nicolai confessoris, anno Domini M° CCCC° LXVJ° Parisius
                         in collegio Tornacensi per me Iacobum Ungelink de Stendal, clericum dyocesis
@@ -798,9 +798,9 @@
                         24. Doctrinalibus et naturalibus iuxta et corporis et ingenii ; expl.:
                         regnator Olimpi, Olimpus pater Deus, Amen”. </note>
                      <note type="desc">on f. 93rb, marg. inf., we find an indication on the teaching
-                        practice: <quote source="93rb">Non legitur primus tractatus Metaphysice, quia in ipso solum
-                        tractantur et reprobantur opiniones antiquorum de primis principiis et
-                        causis entium</quote>.</note>
+                        practice: <quote source="93rb">Non legitur primus tractatus Metaphysice,
+                           quia in ipso solum tractantur et reprobantur opiniones antiquorum de
+                           primis principiis et causis entium</quote>.</note>
                      <colophon source="155vb">Finis duodecim Metaphisice per magistrum Petrum Lutcz
                         de Schweygern, anno Domini 1471, in die sancti Leonhardi
                         confessoris</colophon>
@@ -897,6 +897,43 @@
                   </listBibl>
                </additional>
             </msDesc>
+
+            <msDesc xml:id="NürnbergStadtbibliothekimBildungscampusNürnberg_CentVII86">
+               <msIdentifier>
+                  <settlement>Nürnberg</settlement>
+                  <repository>Stadtbibliothek im Bildungscampus Nürnberg</repository>
+                  <idno>Cent VII 86*</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem xml:id="NürnbergStadtbibliothekimBildungscampusNürnberg_CentVII86_CsPH">
+                     <locus from="1ra" to="108vb"> I-IV</locus>
+                     <note type="content">The text is acephalus and begins with the words: <q>eius,
+                           sicut proprium consequitur speciem</q> (book I). It ends unfinished at
+                        book V with the words: <q>ergo quoddam corpus est ubique, quia</q>. </note>
+                     <colophon source="93ra">Explicit quartus tractatus Petri Hispani de
+                        sillogismis, per manum fratris Leonhardi Schroter conventus
+                        Ratisponensis</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <p>The <watermark>watermark</watermark> (a unicorn particularly visible in the last quire) is very
+                        similar to <bibl>Piccard X, III, 2136</bibl> (Wesel, 1478) and 2137 (Wesel 1475).</p>
+                     <origPlace>Regensburg</origPlace>
+                     <p>Regensburg, as stated in the colophon on f. 93ra: <q>Explicit quartus
+                           tractatus Petri Hispani de sillogismis, per manum fratris Leonhardi
+                           Schroter conventus Ratisponensis</q>.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Neske, Nürnberg, 188.</bibl>
+                     <bibl>Merinhos, 296-297.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Praha_NK_IV-F-8">
                <msIdentifier>
                   <settlement>Praha</settlement>

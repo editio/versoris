@@ -71,15 +71,16 @@
 		
 		tei-birth, tei-death {
 			display: inline;
-			font-weight: bold;
 		}
 		
 		tei-birth::before {
 			content: "Born: ";
+			font-weight: bold;
 		}
 		
 		tei-death::before {
 			content: "Died: ";
+			font-weight: bold;
 		}
 		
 		tei-faith {
@@ -210,6 +211,13 @@
 		let behaviors = {
 			"tei": {
 				"teiHeader": null,
+				"note": function(e) {
+					// Return the note content without parentheses
+					let container = document.createElement('span');
+					container.className = 'note-content';
+					container.innerHTML = e.innerHTML;
+					return container;
+				},
 				"birth": function(e) {
 					const when = e.getAttribute('when');
 					const notBefore = e.getAttribute('notBefore');

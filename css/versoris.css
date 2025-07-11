@@ -165,6 +165,21 @@ tei-quote::after {
     content: '"';
 }
 
+/* Quotes */
+tei-q {
+    display: inline;
+    margin: 10px 0;
+}
+
+tei-q::before {
+    content: '"';
+}
+
+tei-q::after {
+    content: '"';
+}
+
+
 /* Colophons */
 tei-colophon {
     display: block;
@@ -215,12 +230,10 @@ tei-origin {
 
 /* Dates and places */
 tei-origDate {
-    font-weight: bold;
 }
 
 tei-origPlace {
     display: block;
-    font-weight: bold;
     margin-top: 10px;
 }
 
@@ -314,4 +327,10 @@ tei-listBibl > tei-bibl::before {
     max-height: 500px;
     overflow-y: auto;
     overflow-x: hidden;
+}
+
+/* Display n attribute in parentheses for all elements */
+tei-colophon[n]::after {
+    content: " (" attr(n) ")";
+    font-style: normal;
 }
