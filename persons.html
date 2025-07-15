@@ -7,7 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Person register for Versoris manuscript collection">
 	<meta name="author" content="José Luis Losada Palenzuela">
-	<meta name="generator" content="Hugo 0.79.0">
 
 	<!-- Stater template modified -->
 	<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/starter-template/">
@@ -15,7 +14,7 @@
 	<script src="js/CETEI.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/CETEIcean.css" />
 	<!-- Own CSS on sonetts. It may overlap with CETEIcean.css -->
-	<link rel="stylesheet" type="text/css" href="css/claude.css" />
+	<link rel="stylesheet" type="text/css" href="css/versoris.css" />
 	<!-- Bootstrap core CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -39,118 +38,7 @@
 		body {
 			padding-top: 5rem;
 		}
-		
-		
-		/* Person styling */
-		tei-person {
-			display: block;
-			margin: 30px 0;
-			padding: 20px;
-			border: 1px solid #e9ecef;
-			border-radius: 0.5rem;
-			background-color: #fff;
-			box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-		}
-		
-		tei-person > tei-name:first-of-type {
-			font-size: 1.4em;
-			font-weight: bold;
-			color: #495057;
-			margin-bottom: 10px;
-		}
-		
-		tei-name {
-			display: block;
-			margin-bottom: 5px;
-		}
-		
-		tei-name:not(:first-of-type) {
-			font-style: italic;
-			color: #6c757d;
-		}
-		
-		tei-birth, tei-death {
-			display: inline;
-		}
-		
-		tei-birth::before {
-			content: "Born: ";
-			font-weight: bold;
-		}
-		
-		tei-death::before {
-			content: "Died: ";
-			font-weight: bold;
-		}
-		
-		tei-faith {
-			display: inline-block;
-			background-color: #17a2b8;
-			color: white;
-			padding: 2px 8px;
-			border-radius: 3px;
-			font-size: 0.9em;
-			margin: 5px 0;
-		}
-		
-		tei-note {
-			display: block;
-			margin: 15px 0;
-			padding: 10px;
-			background-color: #f8f9fa;
-			border-left: 4px solid #007bff;
-			line-height: 1.6;
-		}
-		
-		tei-occupation {
-			display: block;
-			margin: 5px 0;
-			padding: 5px 10px;
-			background-color: #e9ecef;
-			border-radius: 3px;
-		}
-		
-		tei-occupation::before {
-			content: "Role: ";
-			font-weight: bold;
-		}
-		
-		tei-idno {
-			display: inline-block;
-			margin: 5px 10px 5px 0;
-			padding: 2px 6px;
-			background-color: #6c757d;
-			color: white;
-			border-radius: 3px;
-			font-size: 0.8em;
-		}
-		
-		tei-idno[type="VIAF"]::before {
-			content: "VIAF: ";
-		}
-		
-		tei-idno[type="GND"]::before {
-			content: "GND: ";
-		}
-		
-		.ms-link {
-			color: #007bff;
-			text-decoration: underline;
-			cursor: pointer;
-		}
-		
-		.ms-link:hover {
-			color: #0056b3;
-		}
-		
-		.dates {
-			margin: 10px 0;
-			font-size: 0.95em;
-		}
-		
-		.identifiers {
-			margin: 10px 0;
-		}
+
 	</style>
 
 </head>
@@ -189,8 +77,6 @@
 		<div class="starter-template py-5 px-3">
 			<h1>Person Register</h1>
 			<p class="lead">Individuals associated with the Versoris manuscript collection</p>
-
-
 			<section id="PersonRegister">
 			</section>
 

@@ -99,8 +99,8 @@
                      </msItem>
                      <msItem xml:id="Aarau_AKB_MsWettF42_DC_q3" class="question" n="3">
                         <locus from="101va"/>
-                        <title ref="questionID">Utrum corpus sit magnitudo perfecta [CORRECTED BY
-                           ELENA, eprfecta in perfecta. OK?]</title>
+                        <title ref="questionID">Utrum corpus sit magnitudo perfecta <note type="editorial">[CORRECTED BY
+                           ELENA, eprfecta in perfecta. OK?]</note></title>
                      </msItem>
                      <msItem xml:id="Aarau_AKB_MsWettF42_DC_q4" class="question" n="4">
                         <locus from="101va"/>
@@ -1001,8 +1001,8 @@
                         quasi vigesima prima, anno Domini 1458</colophon>
                      <quote source="245v marg.inf">anno etc. LVIII <persName ref="ID">magister
                            Iohannes de Praga</persName> incepit legere puncta cum textu Priorum,
-                        feria secunda post Matheus apostoli [24 IX 1459] [ELENA: SHOULD THIS GO
-                        HERE?</quote>
+                        feria secunda post Matheus apostoli [24 IX 1459]<note type="editorial">[ELENA: SHOULD THIS GO
+                        HERE?</note></quote>
                   </msItem>
                   <msItem xml:id="Praha_NK_IV-F-8_backGuardLeaf">
                      <locus>I back guard-leaf</locus>
@@ -1085,7 +1085,7 @@
                      <explicit>secundum predictam deffendi possunt</explicit>
                   </msItem>
                   <msItem xml:id="Siena_Intronati_H-VI-7_QsApos">
-                     <locus from="65v" to="93r">[DEDOTTO DA ELENA. OK?]</locus>
+                     <locus from="65v" to="93r"><note type="editorial">[DEDOTTO DA ELENA. OK?]</note></locus>
                      <title ref="ID">QsApos</title>
                      <incipit>Circa primum librum Posteriorum Aristotilis movetur question talis,
                         que est in forma talis, videlicet utrum de demonstration sit scientia
@@ -1275,7 +1275,7 @@
                   <msItem xml:id="Wien_DK_149-119_Elenchi">
                      <locus from="194ra" to="210vb"/>
                      <title ref="ID">Elenchi</title>
-                     <colophon source="210vb">Et in hoc terminantur Parisiensia [ELENA: WHY BOLD?]
+                     <colophon source="210vb">Et in hoc terminantur Parisiensia <note type="editorial">[ELENA: WHY BOLD?]</note>
                         puncta in se continentia superficialiter cuncta que Aristoteles in suis
                         libris oculte tradidit eosque ad legendum et non intelligendum edidit. …
                         Terminantur puncta parisiensia super nova et veteri logica, comparata per

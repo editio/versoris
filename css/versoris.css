@@ -151,6 +151,10 @@ tei-note[type="desc"]::before {
     font-weight: bold;
 }
 
+tei-note[type="editorial"] {
+    display: none;
+}
+
 /* Quotes */
 tei-quote {
     display: inline;
@@ -334,3 +338,114 @@ tei-colophon[n]::after {
     content: " (" attr(n) ")";
     font-style: normal;
 }
+
+/* Person styling */
+		tei-person {
+			display: block;
+			margin: 30px 0;
+			padding: 20px;
+			border: 1px solid #e9ecef;
+			border-radius: 0.5rem;
+			background-color: #fff;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+		}
+
+		tei-person > tei-name:first-of-type {
+			font-size: 1.4em;
+			font-weight: bold;
+			color: #495057;
+			margin-bottom: 10px;
+		}
+
+		tei-name {
+			display: block;
+			margin-bottom: 5px;
+		}
+
+		tei-name:not(:first-of-type) {
+			font-style: italic;
+			color: #6c757d;
+		}
+
+		tei-birth, tei-death {
+			display: inline;
+		}
+
+		tei-birth::before {
+			content: "Born: ";
+			font-weight: bold;
+		}
+
+		tei-death::before {
+			content: "Died: ";
+			font-weight: bold;
+		}
+
+		tei-faith {
+			display: inline-block;
+			background-color: #17a2b8;
+			color: white;
+			padding: 2px 8px;
+			border-radius: 3px;
+			font-size: 0.9em;
+			margin: 5px 0;
+		}
+
+		#PersonRegister tei-note {
+			display: block;
+			margin: 15px 0;
+			padding: 10px;
+			background-color: #f8f9fa;
+			border-left: 4px solid #007bff;
+			line-height: 1.6;
+		}
+
+		tei-occupation {
+			display: block;
+			margin: 5px 0;
+			padding: 5px 10px;
+			background-color: #e9ecef;
+			border-radius: 3px;
+		}
+
+		tei-occupation::before {
+			content: "Role: ";
+			font-weight: bold;
+		}
+
+		tei-idno {
+			display: inline-block;
+			margin: 5px 10px 5px 0;
+			padding: 2px 6px;
+			background-color: #6c757d;
+			color: white;
+			border-radius: 3px;
+			font-size: 0.8em;
+		}
+
+		tei-idno[type="VIAF"]::before {
+			content: "VIAF: ";
+		}
+
+		tei-idno[type="GND"]::before {
+			content: "GND: ";
+		}
+
+		.ms-link {
+			color: #007bff;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+
+		.ms-link:hover {
+			color: #0056b3;
+		}
+
+		.dates {
+			margin: 10px 0;
+			font-size: 0.95em;
+		}
+
+		.identifiers {
+			margin: 10px 0;
+		}

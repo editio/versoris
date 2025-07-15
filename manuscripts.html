@@ -7,7 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
 	<meta name="author" content="José Luis Losada Palenzuela">
-	<meta name="generator" content="Hugo 0.79.0">
 
 	<!-- Stater template modified -->
 	<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/starter-template/">
@@ -125,7 +124,7 @@
 					if (when) {
 						container.textContent = when;
 					} else if (from && to) {
-						container.textContent = `${from}-${to}`;
+						container.textContent = from === to ? from : `${from}-${to}`;
 					} else if (from) {
 						container.textContent = `from ${from}`;
 					} else if (to) {
