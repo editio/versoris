@@ -155,6 +155,10 @@ tei-note[type="editorial"] {
     display: none;
 }
 
+tei-altIdentifier{
+    display: none;
+}
+
 /* Quotes */
 tei-quote {
     display: inline;
