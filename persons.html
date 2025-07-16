@@ -145,28 +145,67 @@
 					return container;
 				},
 				"occupation": function(e) {
-					const role = e.getAttribute('role');
-					const ref = e.getAttribute('ref');
-					
-					let container = document.createElement('div');
-					container.className = 'occupation-container';
-					
-					// Add role text
-					if (role) {
-						container.textContent = role;
+					// Check if we've already processed occupations for this person
+					const personElement = e.closest('tei-person') || e.parentElement;
+					if (personElement._occupationProcessed) {
+						return null; // Don't render subsequent occupation elements
 					}
 					
-					// Add manuscript link if ref exists
-					if (ref) {
-						const msLink = document.createElement('span');
-						msLink.className = 'ms-link';
-						const msId = ref.replace('mss.xml#', '');
-						msLink.textContent = ` (see manuscript '${msId}')`;
-						msLink.onclick = function() {
-							// Navigate to manuscript page with anchor
-							window.location.href = `manuscripts.html#${msId}`;
-						};
-						container.appendChild(msLink);
+					// Mark this person as processed
+					personElement._occupationProcessed = true;
+					
+					// Get all occupation elements for this person
+					const allOccupations = Array.from(personElement.querySelectorAll('tei-occupation') || 
+													  personElement.children).filter(child => 
+													  child.tagName && child.tagName.toLowerCase().includes('occupation'));
+					
+					// Group occupations by role
+					const roleGroups = {};
+					
+					allOccupations.forEach(occupation => {
+						const role = occupation.getAttribute('role');
+						const ref = occupation.getAttribute('ref');
+						
+						if (role) {
+							const roles = role.split(' ').map(r => r.trim());
+							roles.forEach(singleRole => {
+								if (!roleGroups[singleRole]) {
+									roleGroups[singleRole] = [];
+								}
+								if (ref) {
+									const msId = ref.replace('mss.xml#', '');
+									roleGroups[singleRole].push(msId);
+								}
+							});
+						}
+					});
+					
+					// Create new element with consolidated role information
+					const container = document.createElement('div');
+					container.className = 'tei-occupation'; // Use same class as CETEIcean would create
+					
+					// Create role display
+					const roleParts = [];
+					Object.keys(roleGroups).forEach(role => {
+						const refs = roleGroups[role];
+						if (refs.length > 0) {
+							const refText = refs.map(msId => {
+								const link = document.createElement('span');
+								link.className = 'ms-link';
+								link.textContent = msId;
+								link.onclick = function() {
+									window.location.href = `manuscripts.html#${msId}`;
+								};
+								return link.outerHTML;
+							}).join(', ');
+							roleParts.push(`${role} of ${refText}`);
+						} else {
+							roleParts.push(role);
+						}
+					});
+					
+					if (roleParts.length > 0) {
+						container.innerHTML = `${roleParts.join('; ')}`;
 					}
 					
 					return container;
