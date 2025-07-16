@@ -189,23 +189,40 @@
 					Object.keys(roleGroups).forEach(role => {
 						const refs = roleGroups[role];
 						if (refs.length > 0) {
-							const refText = refs.map(msId => {
+							const roleSpan = document.createElement('span');
+							roleSpan.textContent = `${role} of mss. `;
+							
+							refs.forEach((msId, index) => {
 								const link = document.createElement('span');
 								link.className = 'ms-link';
-								link.textContent = msId;
+								link.textContent = `${msId}`;
 								link.onclick = function() {
 									window.location.href = `manuscripts.html#${msId}`;
 								};
-								return link.outerHTML;
-							}).join(', ');
-							roleParts.push(`${role} of ${refText}`);
+								roleSpan.appendChild(link);
+								
+								// Add comma separator if not the last item
+								if (index < refs.length - 1) {
+									roleSpan.appendChild(document.createTextNode(', '));
+								}
+							});
+							
+							roleParts.push(roleSpan);
 						} else {
-							roleParts.push(role);
+							const roleSpan = document.createElement('span');
+							roleSpan.textContent = role;
+							roleParts.push(roleSpan);
 						}
 					});
 					
 					if (roleParts.length > 0) {
-						container.innerHTML = `${roleParts.join('; ')}`;
+						roleParts.forEach((part, index) => {
+							container.appendChild(part);
+							// Add semicolon separator if not the last item
+							if (index < roleParts.length - 1) {
+								container.appendChild(document.createTextNode('; '));
+							}
+						});
 					}
 					
 					return container;
