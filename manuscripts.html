@@ -39,6 +39,17 @@
 			padding-top: 5rem;
 		}
 		
+		/* Person link styling */
+		.person-link {
+			color: #0d6efd;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+		
+		.person-link:hover {
+			color: #0a58ca;
+		}
+		
 	</style>
 
 </head>
@@ -110,6 +121,50 @@
 					container.className = 'note-content';
 					container.innerHTML = e.innerHTML;
 					return container;
+				},
+				"persName": function(e) {
+					const ref = e.getAttribute('ref');
+					if (ref && ref.startsWith('#')) {
+						const personId = ref.replace('#', '');
+						const container = document.createElement('span');
+						container.className = 'person-link';
+						container.textContent = e.textContent;
+						container.onclick = function() {
+							window.location.href = `persons.html#${personId}`;
+						};
+						return container;
+					}
+					// Return default behavior if no ref or not starting with #
+					return null;
+				},
+				"idno": function(e) {
+					const type = e.getAttribute('type');
+					if (type === 'URI') {
+						const url = e.textContent.trim();
+						
+						// Create a complete new structure
+						const container = document.createElement('div');
+						container.className = 'uri-link-container';
+						
+						// Create label
+						const label = document.createElement('span');
+						label.className = 'uri-link-label';
+						label.textContent = 'See at: ';
+						
+						// Create clickable link
+						const link = document.createElement('a');
+						link.className = 'uri-link-url';
+						link.href = url;
+						link.target = '_blank';
+						link.textContent = url;
+						
+						container.appendChild(label);
+						container.appendChild(link);
+						
+						return container;
+					}
+					// Return default behavior for other idno types
+					return null;
 				},
 				"origDate": function(e) {
 					const when = e.getAttribute('when');
