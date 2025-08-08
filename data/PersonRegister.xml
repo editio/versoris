@@ -17,12 +17,11 @@
             <p>University of Basel</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Bibliography and direct anaylsis of the manuscipts</p>
+            <p>Bibliography and direct anaylsis of the manuscripts</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
-
 
       <!-- It is possible to decide which tags will be published in the inventory (web or print) and which not. For example, the element <adminInfo> can be used to take notes for internal use about the opening hours of the library or the documents needed to access the manuscripts-->
       <body>
@@ -33,65 +32,112 @@
                <!-- readable identifiers, names. If we found a better way to integrate the registers in the editing of the mss, the ids can be changed to numbers (001, 002, 003). -->
                <idno type="VIAF">57438140</idno>
                <name xml:lang="lat">Crux de Telcz</name>
-               <name xml:lang="cz">Kříž z Telče</name> <!-- check lang code -->
-               <birth when="1434"/> <!-- place never -->
-               <death when="1504"/> <!-- place never -->
-               <note>Crux’s studies at King Wenceslas College at Prague University between April and November 1459 are well documented by the large number of colophons he left. He did not obtain any degree, which is not surprising, given that he was Catholic and the situation at Prague University in the 1450s did not favor Catholics. He subsequently worked for the Catholic Church administration, first at St. Vitus Cathedral in Prague (1463–1466), and later in Plzeň (1468–1472). He was ordained in 1463 and joined the Augustinian canonry in Třeboň (Wittingau in German).</note> <!-- no links inside biography -->
-               <faith subtype="OESA" type="religious">Augustinian</faith> <!-- Religious order: aggiungere nel XSLT -->
+               <name xml:lang="cz">Kříž z Telče</name>
+               <!-- check lang code -->
+               <birth when="1434"/>
+               <!-- place never -->
+               <death when="1504"/>
+               <!-- place never -->
+               <note>Crux’s studies at King Wenceslas College at Prague University between April and
+                  November 1459 are well documented by the large number of colophons he left. He did
+                  not obtain any degree, which is not surprising, given that he was Catholic and the
+                  situation at Prague University in the 1450s did not favor Catholics. He
+                  subsequently worked for the Catholic Church administration, first at St. Vitus
+                  Cathedral in Prague (1463–1466), and later in Plzeň (1468–1472). He was ordained
+                  in 1463 and joined the Augustinian canonry in Třeboň (Wittingau in German).</note>
+               <!-- no links inside biography -->
+               <faith subtype="OESA" type="religious">Augustinian</faith>
+               <!-- Religious order: aggiungere nel XSLT -->
                <!-- type: religious, secular -->
                <occupation role="copyst owner" ref="mss.xml#Praha-NK-I-E-38"/>
                <occupation role="copyst owner" ref="mss.xml#I F 25"/>
                <listBibl>
-                  <bibl>dsa</bibl> <!-- empty with link -->
+                  <bibl>dsa</bibl>
+                  <!-- empty with link -->
                </listBibl>
             </person>
-            
-            
+
+
             <person xml:id="GeorgSchwarz">
                <!-- missing identifier. Create GND and Wikidata -->
-               <name xml:lang="lat">Georg Nigri</name> <!-- mandatory -->
+               <name xml:lang="lat">Georg Nigri</name>
+               <!-- mandatory -->
                <name xml:lang="de">Georg Schwarz</name>
                <!-- mandatory birth, death or floruit -->
                <birth when="1434"/>
                <death notBefore="1484"/>
                <!-- mandatory -->
-               <note>Originally from Kaaden (Bohemia), he entered the Dominican Order in Brux in 1452. He studied at the Dominican convent in Leipzig (1456–1458) and Bologna (1459–1461). He lectured as cursor sententiarum in Eichstätt (1461) and was active as a preacher there and in Buchenhüll (1464–1465). He pursued his theological studies at the University of Cologne (1465–1466) and served as lector and preacher at the Dominican convents in Ulm and Eichstätt (1467–1474). He taught theology at the Dominican convent in Regensburg (1478) and continued his theological studies at the University of Ingolstadt (1478–1479). In 1482, he became the general vicar of the Dominican Order in Bohemia. In this capacity, he participated in the General Chapter of the Order in Rome in 1484.</note>
-               <faith subtype="OP" type="religious">Dominican</faith> <!-- mandatory --> <!-- add closed list of values in ODD -->
-               <occupation role="owner copyst" ref="mss.xml#Eichstätt_UB_Cod-686"/> <!-- mandatory -->
-               <listBibl> <!-- mandatory -->
+               <note>Originally from Kaaden (Bohemia), he entered the Dominican Order in Brux in
+                  1452. He studied at the Dominican convent in Leipzig (1456–1458) and Bologna
+                  (1459–1461). He lectured as cursor sententiarum in Eichstätt (1461) and was active
+                  as a preacher there and in Buchenhüll (1464–1465). He pursued his theological
+                  studies at the University of Cologne (1465–1466) and served as lector and preacher
+                  at the Dominican convents in Ulm and Eichstätt (1467–1474). He taught theology at
+                  the Dominican convent in Regensburg (1478) and continued his theological studies
+                  at the University of Ingolstadt (1478–1479). In 1482, he became the general vicar
+                  of the Dominican Order in Bohemia. In this capacity, he participated in the
+                  General Chapter of the Order in Rome in 1484.</note>
+               <faith subtype="OP" type="religious">Dominican</faith>
+               <!-- mandatory -->
+               <!-- add closed list of values in ODD -->
+               <occupation role="owner copyst" ref="mss.xml#Eichstätt_UB_Cod-686"/>
+               <!-- mandatory -->
+               <listBibl>
+                  <!-- mandatory -->
                   <bibl/>
                </listBibl>
             </person>
-            
-            
+
+
             <person xml:id="IacobusLouber">
-               <idno type="VIAF">44463016</idno> <!-- in html, together in a field "Identifier"  -->
+               <idno type="VIAF">44463016</idno>
+               <!-- in html, together in a field "Identifier"  -->
                <idno type="GND">1024501442</idno>
                <name>Iacobus Louber</name>
                <birth when="1440"/>
                <death when="1513"/>
-               <note>He studied in Basel in 1476–1477 and served as rector of Basel University. He subsequently entered the Carthusian order and became prior in 1480. Under his direction, the convent and the library were built.</note>
+               <note>He studied in Basel in 1476–1477 and served as rector of Basel University. He
+                  subsequently entered the Carthusian order and became prior in 1480. Under his
+                  direction, the convent and the library were built.</note>
                <faith subtype="OCart" type="religious">Carthusian</faith>
                <occupation role="owner" ref="mss.xml#msBasel_UB_F-I-13"/>
                <occupation role="owner" ref="mss.xml#msBasel_UB_F-V-9"/>
                <listBibl>
-                  <bibl>M. Burckhardt, “Aus dem Umkreis der ersten Basler Universitätsbibliothek”, Basler Zeitschrift für Geschichte und Altertumskunde 58/59 (1959), 155-191, at 176-179</bibl>
+                  <bibl>M. Burckhardt, “Aus dem Umkreis der ersten Basler Universitätsbibliothek”,
+                     Basler Zeitschrift für Geschichte und Altertumskunde 58/59 (1959), 155-191, at
+                     176-179</bibl>
                </listBibl>
             </person>
-            
+
             <person xml:id="NicolausUnbehuen">
                <name xml:lang="lat">Nicolaus Unbehuen</name>
                <name xml:lang="lat">Nicolaus Umbehauen</name>
                <birth notBefore="1400"/>
-               <death notAfter="1500"/>               
-               <note>Active in Ulm, probably at the Dominican convent, in the third quarter of the fifteenth century.</note>
+               <death notAfter="1500"/>
+               <note>Active in Ulm, probably at the Dominican convent, in the third quarter of the
+                  fifteenth century.</note>
                <faith subtype="OP" type="religious">Dominican</faith>
-               <occupation role="copyst" ref="mss.xml#Bamberg_StaatsbibliothekBamberg_Msc.Patr.150"></occupation>
-               <listBibl> <!-- mandatory -->
+               <occupation role="copyst" ref="mss.xml#Bamberg_StaatsbibliothekBamberg_Msc.Patr.150"/>
+               <listBibl>
+                  <!-- mandatory -->
                   <bibl>Leitschuh, I.1, 532-533.</bibl>
                </listBibl>
             </person>
-            
+
+            <person xml:id="HenricusErlbach">
+               <name xml:lang="lat">Henricus Erlbach</name>   
+               <name xml:lang="de">Heinrich Erlbach</name>   
+               <death when="1525"/>
+               <note>After studying in Ingolstadt, he entered the Benedictine monastery of Saint
+                  Emmeram.</note>
+               <faith subtype="OSB" type="religious">Benedictine</faith>
+               <occupation role="copyst owner" ref="mss.xml#München_BSB_Clm_14518"/>
+               <listBibl>
+                  <bibl>D. Sheffler, Schools and Schooling in Late Medieval Germany: Regensburg,
+                     1250-1500, Leiden/Boston 2008, 35, 224, 267.</bibl>
+               </listBibl>
+            </person>
+
          </listPerson>
       </body>
    </text>

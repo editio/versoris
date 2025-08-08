@@ -99,8 +99,9 @@
                      </msItem>
                      <msItem xml:id="Aarau_AKB_MsWettF42_DC_q3" class="question" n="3">
                         <locus from="101va"/>
-                        <title ref="questionID">Utrum corpus sit magnitudo perfecta <note type="editorial">[CORRECTED BY
-                           ELENA, eprfecta in perfecta. OK?]</note></title>
+                        <title ref="questionID">Utrum corpus sit magnitudo perfecta <note
+                              type="editorial">[CORRECTED BY ELENA, eprfecta in perfecta.
+                              OK?]</note></title>
                      </msItem>
                      <msItem xml:id="Aarau_AKB_MsWettF42_DC_q4" class="question" n="4">
                         <locus from="101va"/>
@@ -234,6 +235,7 @@
                   <settlement>Bamberg</settlement>
                   <repository>Staatsbibliothek Bamberg</repository>
                   <idno>Msc.Patr.150*</idno>
+                  <idno type="URI">https://resolver.staatsbibliothek-berlin.de/HSP0004E85D00000000</idno>
                </msIdentifier>
                <msContents>
                   <summary>The commentary is ascribed to Versoris in the first colophon</summary>
@@ -256,13 +258,13 @@
                      <colophon source="">Explicit scriptum Versoris super De ente et essentia sancti
                         Thome doctoris</colophon>
                   </msItem>
-                  <msItem xml:id="Bamberg_StaatsbibliothekBamberg_Msc.Patr.150_ThomasTextComment">
+                  <!--              <msItem xml:id="Bamberg_StaatsbibliothekBamberg_Msc.Patr.150_ThomasTextComment">
                      <locus from="137r" to="170r"/>
                      <title ref="workID">Thomas's Text Commentary</title>
                      <incipit>insignis perypatetice veritatis interpres Doctor sanctus nedum adultos
                         provehi, verum in novitios afficiens erudire uberiores</incipit>
                      <explicit>psa lux non eclipsalis, sed lucens eternaliter</explicit>
-                  </msItem>
+                  </msItem>-->
                </msContents>
                <history>
                   <origin>
@@ -350,8 +352,8 @@
                         Halbertstadensis</quote>
                      <quote source="68ra">[Book V of the Ethics] Et sic est finis huius quinti libri
                         Ethicorum per me Iacobum de Stendal, anno Domini M° CCCC° LXVJ°</quote>
-                     <explicit>Et sic est finis huius sexti Ethicorum per manus Iacobi Unghelink
-                        Parisius</explicit>
+                     <colophon source="">Et sic est finis huius sexti Ethicorum per manus Iacobi
+                        Unghelink Parisius</colophon>
                   </msItem>
                </msContents>
                <history>
@@ -757,7 +759,7 @@
                </additional>
             </msDesc>
 
-            <!--München, BSB, Clm 14518*-->
+            <!--München, BSB, Clm 14518* issue#4-->
 
             <msDesc xml:id="München_BSB_Clm_14518">
                <!--Check how to create the string for xml:id. No documentation for now-->
@@ -766,21 +768,52 @@
                   <repository>BSB</repository>
                   <idno>Clm 14518*</idno>
                   <!--asterisk ?-->
+                  <idno type="URI"
+                     >https://www.digitale-sammlungen.de/de/view/bsb00109490</idno>
                </msIdentifier>
                <msContents>
                   <!--from Content -->
                   <summary>None</summary>
                   <!--attribution-->
-                  <msItem xml:id="msItem_p4c_qkf_n2c">
+                  <msItem xml:id="München_BSB_Clm_14518_CsPH">
                      <!--Check how to create the string for xml:id. No documentation for now-->
-                     <locus/>
+                     <locus from="16r" to="274v"/>
                      <title ref="#self">CsPH</title>
+                     <note type="desc">Book I ends unfinished on f. 62v with the treatment of modal
+                        propositions <q>bene variantur specie accidentali et ex parte affirmationis
+                           et negationis</q>. The scribe wrote afterwards: <q>require in fine libri
+                           †</q>. Books V and VI are missing.</note>
+                     <note type="desc">Versoris’s commentary alternates with the text of <persName
+                           ref="p_id">Peter of Spain</persName>’s <title ref="w_ID"
+                        >Summulae</title>, which is copied in larger characters with increased
+                        interlinear spacing. </note>
                   </msItem>
                </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1491" to="1491">1491</origDate>
+                     <p>Date as read at the end of book V of <persName ref="p_id">Peter of
+                           Spain</persName>’s <title ref="w_ID">Summulae</title>, f. 193r.</p>
+                     <p>The manuscript was copied and owned by the monk <persName
+                        ref="#HenricusErlbach">Heinrich Erlbach</persName>, from the benedictine
+                        monastery of <orgName>Saint Emmeram</orgName> in <placeName>Regensburg</placeName>. His name appears in the colophons:
+                           <quote source="181v">frater Henricus ordinis divi Benedicti</quote>, f.
+                        181v; <quote source="274v">Heinricus Erlbach, tunc temporis scolaris veteris
+                           cappelle Ratisbonensis</quote>, f. 274v.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Halm/Laubmann 2.2, 196</bibl>
+                     <bibl>Merinhos, 271-272</bibl>
+                     <bibl>not in Markowski</bibl>
+                     <!-- this? -->
+                  </listBibl>
+               </additional>
             </msDesc>
 
 
-            <!-- Nürnberg, Stadtbibliothek im Bildungscampus Nürnberg, Cent. V 47* -->
+            <!-- Nürnberg, Stadtbibliothek im Bildungscampus Nürnberg, Cent. V 47* issue#3-->
 
             <msDesc xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_Cent.V47">
                <msIdentifier>
@@ -898,6 +931,8 @@
                </additional>
             </msDesc>
 
+            <!-- Nürnberg, Stadtbibliothek im Bildungscampus Nürnberg, Cent VII 86* issue#3 -->
+
             <msDesc xml:id="NürnbergStadtbibliothekimBildungscampusNürnberg_CentVII86">
                <msIdentifier>
                   <settlement>Nürnberg</settlement>
@@ -918,8 +953,9 @@
                </msContents>
                <history>
                   <origin>
-                     <p>The <watermark>watermark</watermark> (a unicorn particularly visible in the last quire) is very
-                        similar to <bibl>Piccard X, III, 2136</bibl> (Wesel, 1478) and 2137 (Wesel 1475).</p>
+                     <p>The <watermark>watermark</watermark> (a unicorn particularly visible in the
+                        last quire) is very similar to <bibl>Piccard X, III, 2136</bibl> (Wesel,
+                        1478) and 2137 (Wesel 1475).</p>
                      <origPlace>Regensburg</origPlace>
                      <p>Regensburg, as stated in the colophon on f. 93ra: <q>Explicit quartus
                            tractatus Petri Hispani de sillogismis, per manum fratris Leonhardi
@@ -1001,8 +1037,8 @@
                         quasi vigesima prima, anno Domini 1458</colophon>
                      <quote source="245v marg.inf">anno etc. LVIII <persName ref="ID">magister
                            Iohannes de Praga</persName> incepit legere puncta cum textu Priorum,
-                        feria secunda post Matheus apostoli [24 IX 1459]<note type="editorial">[ELENA: SHOULD THIS GO
-                        HERE?</note></quote>
+                        feria secunda post Matheus apostoli [24 IX 1459]<note type="editorial"
+                           >[ELENA: SHOULD THIS GO HERE?</note></quote>
                   </msItem>
                   <msItem xml:id="Praha_NK_IV-F-8_backGuardLeaf">
                      <locus>I back guard-leaf</locus>
@@ -1085,7 +1121,8 @@
                      <explicit>secundum predictam deffendi possunt</explicit>
                   </msItem>
                   <msItem xml:id="Siena_Intronati_H-VI-7_QsApos">
-                     <locus from="65v" to="93r"><note type="editorial">[DEDOTTO DA ELENA. OK?]</note></locus>
+                     <locus from="65v" to="93r"/>
+                     <note type="editorial">[Locus DEDOTTO DA ELENA. OK?]</note>
                      <title ref="ID">QsApos</title>
                      <incipit>Circa primum librum Posteriorum Aristotilis movetur question talis,
                         que est in forma talis, videlicet utrum de demonstration sit scientia
@@ -1275,11 +1312,12 @@
                   <msItem xml:id="Wien_DK_149-119_Elenchi">
                      <locus from="194ra" to="210vb"/>
                      <title ref="ID">Elenchi</title>
-                     <colophon source="210vb">Et in hoc terminantur Parisiensia <note type="editorial">[ELENA: WHY BOLD?]</note>
-                        puncta in se continentia superficialiter cuncta que Aristoteles in suis
-                        libris oculte tradidit eosque ad legendum et non intelligendum edidit. …
-                        Terminantur puncta parisiensia super nova et veteri logica, comparata per
-                        Martinum de Glathovia anno etc. LII</colophon>
+                     <colophon source="210vb">Et in hoc terminantur Parisiensia <note
+                           type="editorial">[ELENA: WHY BOLD?]</note> puncta in se continentia
+                        superficialiter cuncta que Aristoteles in suis libris oculte tradidit eosque
+                        ad legendum et non intelligendum edidit. … Terminantur puncta parisiensia
+                        super nova et veteri logica, comparata per Martinum de Glathovia anno etc.
+                        LII</colophon>
                   </msItem>
                </msContents>
                <history>

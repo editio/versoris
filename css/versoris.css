@@ -414,7 +414,7 @@ tei-colophon[n]::after {
         }
 
 		tei-idno {
-			display: inline-block;
+			display: inline;
 			margin: 5px 10px 5px 0;
 			padding: 2px 6px;
 			background-color: #6c757d;
@@ -423,6 +423,7 @@ tei-colophon[n]::after {
 			font-size: 0.8em;
 		}
 
+
 		tei-idno[type="VIAF"]::before {
 			content: "VIAF: ";
 		}
@@ -430,6 +431,35 @@ tei-colophon[n]::after {
 		tei-idno[type="GND"]::before {
 			content: "GND: ";
 		}
+
+		/* Override tei-idno styles when it contains URI content */
+		tei-idno:has(.uri-link-container) {
+			background-color: transparent;
+			padding: 0;
+			margin: 0;
+			display: block;
+		}
+
+		/* URI link container */
+		.uri-link-container {
+			display: block;
+			margin: 10px 0 5px 0;
+		}
+
+		.uri-link-label {
+			color: #333;
+			font-weight: bold;
+		}
+
+		.uri-link-url {
+			color: #0d6efd;
+			text-decoration: underline;
+		}
+
+		.uri-link-url:hover {
+			color: #0a58ca;
+		}
+
 
 		.ms-link {
 			color: #007bff;
