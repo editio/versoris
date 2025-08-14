@@ -203,16 +203,46 @@
 
         // Get the elements we want to reorder
         let title = e.querySelector("tei-title");
+        let locusGrp = e.querySelector("tei-locusgrp");
         let locus = e.querySelector("tei-locus");
         let otherElements = Array.from(e.childNodes).filter(node =>
-          node.nodeName !== "TEI-TITLE" && node.nodeName !== "TEI-LOCUS"
+          node.nodeName !== "TEI-TITLE" && 
+          node.nodeName !== "TEI-LOCUS" && 
+          node.nodeName !== "TEI-LOCUSGRP"
         );
 
-        // Add elements in the desired order: title first, then locus, then others
+        // Add elements in the desired order: title first, then locus/locusGrp, then others
         if (title) {
           container.appendChild(title.cloneNode(true));
         }
-        if (locus) {
+        if (locusGrp) {
+          // Handle locusGrp with custom formatting
+          let locusContainer = document.createElement("div");
+          locusContainer.className = "locusGrp-container";
+          
+          let boundLocus = locusGrp.querySelector('tei-locus[scheme="#bound"]');
+          let unboundLocus = locusGrp.querySelector('tei-locus[scheme="#unbound"]');
+          
+          let locusText = "";
+          if (boundLocus) {
+            let from = boundLocus.getAttribute('from');
+            let to = boundLocus.getAttribute('to');
+            if (from && to) {
+              locusText = `${from}-${to}`;
+            }
+          }
+          
+          if (unboundLocus) {
+            let from = unboundLocus.getAttribute('from');
+            let to = unboundLocus.getAttribute('to');
+            if (from && to) {
+              locusText += ` [${from}-${to}]`;
+            }
+          }
+          
+          locusContainer.textContent = locusText;
+          container.appendChild(locusContainer);
+        } else if (locus) {
           container.appendChild(locus.cloneNode(true));
         }
         otherElements.forEach(el => {

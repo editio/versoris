@@ -111,7 +111,7 @@ tei-locus {
 }
 
 tei-locus::before {
-    content: "f." attr(from) "–" attr(to);
+    content: "ff. " attr(from) "–" attr(to);
     font-weight: bold;
 }
 
@@ -120,6 +120,22 @@ tei-locus[from]:not([to])::before {
     font-weight: bold;
 }
 
+tei-locus[to]:not([from])::before {
+    content: "f. " attr(to);
+    font-weight: bold;
+}
+
+.locusGrp-container::before {
+    content: "ff. ";
+    font-weight: bold;
+}
+
+.locusGrp-container {
+    font-weight: bold;
+}
+
+
+
 /* Notes */
 tei-note {
     display: block;
@@ -127,7 +143,7 @@ tei-note {
 }
 
 tei-note[type="attribution"]::before {
-    content: "Note (Attribution): ";
+    content: "Note (attribution): ";
     font-weight: bold;
 }
 
@@ -210,9 +226,17 @@ tei-explicit::before {
     font-weight: bold;
 }
 
+tei-explicit[defective="true"]::before {
+    content: "Explicit mut.: ";
+}
+
 tei-incipit::before {
     content: "Incipit: ";
     font-weight: bold;
+}
+
+tei-incipit[defective="true"]::before {
+    content: "Incipit mut.: ";
 }
 
 /* History */
@@ -395,6 +419,14 @@ tei-colophon[n]::after {
 			margin: 5px 0;
 		}
 
+		tei-faith[type="secular"] {
+			background-color: #FF8C00;
+		}
+
+		tei-faith[type="secular"]::before {
+			content: "secular";
+		}
+
 		#PersonRegister tei-note {
 			display: block;
 			margin: 15px 0;
@@ -424,21 +456,63 @@ tei-colophon[n]::after {
 		}
 
 
+		tei-idno[type="VIAF"] {
+			background: none;
+			padding: 0;
+		}
+
 		tei-idno[type="VIAF"]::before {
 			content: "VIAF: ";
+			background-color: #6c757d;
+			color: white;
+			padding: 2px 6px;
+			border-radius: 3px;
+			margin-right: 5px;
+		}
+
+		tei-idno[type="GND"] {
+			background: none;
+			padding: 0;
 		}
 
 		tei-idno[type="GND"]::before {
 			content: "GND: ";
+			background-color: #6c757d;
+			color: white;
+			padding: 2px 6px;
+			border-radius: 3px;
+			margin-right: 5px;
+		}
+
+		tei-idno[type="CERL"] {
+			background: none;
+			padding: 0;
+		}
+
+        tei-idno[type="CERL"]::before {
+			content: "CERL: ";
+			background-color: #6c757d;
+			color: white;
+			padding: 2px 6px;
+			border-radius: 3px;
+			margin-right: 5px;
 		}
 
 		/* Override tei-idno styles when it contains URI content */
 		tei-idno:has(.uri-link-container) {
-			background-color: transparent;
+			background: none;
 			padding: 0;
 			margin: 0;
 			display: block;
 		}
+
+        /* Override idno display in msPart*/
+
+        tei-msPart > tei-msIdentifier tei-idno {
+         background: none;
+            padding: 0;
+			margin: 0;
+}
 
 		/* URI link container */
 		.uri-link-container {

@@ -93,6 +93,56 @@
 	<script>
 		var CETEIcean = new CETEI();
 	  
+		// Role mapping for Library of Congress relator vocabulary
+		const roleMapping = {
+			'fmo': 'Former owner',
+			'scr': 'Scribe',
+			'pbl': 'Publisher',
+			'bkp': 'Book producer',
+			'bnd': 'Binder',
+			'art': 'Artist',
+			'ill': 'Illustrator',
+			'rub': 'Rubricator',
+			'pat': 'Patron',
+			'dnr': 'Donor',
+			'own': 'Owner',
+			'ann': 'Annotator',
+			'cre': 'Creator',
+			'aut': 'Author',
+			'trl': 'Translator',
+			'edt': 'Editor',
+			'com': 'Compiler',
+			'cor': 'Collection registrar',
+			'ctb': 'Contributor',
+			'dub': 'Dubious author',
+			'dte': 'Dedicatee',
+			'dto': 'Dedicator',
+			'fnd': 'Funder',
+			'his': 'Host institution',
+			'lbr': 'Laboratory',
+			'lbt': 'Librettist',
+			'lse': 'Licensee',
+			'lso': 'Licensor',
+			'ltg': 'Lithographer',
+			'mte': 'Metal-engraver',
+			'oth': 'Other',
+			'ppm': 'Papermaker',
+			'prt': 'Printer',
+			'pup': 'Publication place',
+			'rcp': 'Addressee',
+			'res': 'Researcher',
+			'rsr': 'Restorer',
+			'sec': 'Secretary',
+			'sgn': 'Signer',
+			'spn': 'Sponsor',
+			'stl': 'Storyteller',
+			'tyd': 'Type designer',
+			'tyg': 'Typographer',
+			'voc': 'Vocalist',
+			'wde': 'Wood engraver',
+			'wit': 'Witness'
+		};
+	  
 		// Define global behaviors for TEI elements
 		let behaviors = {
 			"tei": {
@@ -173,7 +223,7 @@
 									roleGroups[singleRole] = [];
 								}
 								if (ref) {
-									const msId = ref.replace('mss.xml#', '');
+									const msId = ref.replace('#', '');
 									roleGroups[singleRole].push(msId);
 								}
 							});
@@ -188,9 +238,11 @@
 					const roleParts = [];
 					Object.keys(roleGroups).forEach(role => {
 						const refs = roleGroups[role];
+						const roleLabel = roleMapping[role] || role;
+						
 						if (refs.length > 0) {
 							const roleSpan = document.createElement('span');
-							roleSpan.textContent = `${role} of mss. `;
+							roleSpan.textContent = `${roleLabel} of mss. `;
 							
 							refs.forEach((msId, index) => {
 								const link = document.createElement('span');
@@ -210,7 +262,7 @@
 							roleParts.push(roleSpan);
 						} else {
 							const roleSpan = document.createElement('span');
-							roleSpan.textContent = role;
+							roleSpan.textContent = roleLabel;
 							roleParts.push(roleSpan);
 						}
 					});
@@ -226,6 +278,34 @@
 					}
 					
 					return container;
+				},
+				"idno": function(e) {
+					const type = e.getAttribute('type');
+					const idno = e.textContent.trim();
+					
+					let url = '';
+					
+					switch(type) {
+						case 'VIAF':
+							url = `http://viaf.org/viaf/${idno}`;
+							break;
+						case 'GND':
+							url = `https://d-nb.info/gnd/${idno}`;
+							break;
+						case 'CERL':
+							url = `http://data.cerl.org/thesaurus/${idno}`;
+							break;
+						default:
+							return null; // Use default behavior for other types
+					}
+					
+					const link = document.createElement('a');
+					link.href = url;
+					link.target = '_blank';
+					link.textContent = idno;
+					link.className = 'external-link';
+					
+					return link;
 				}
 			}
 		};

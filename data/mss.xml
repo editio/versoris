@@ -22,6 +22,8 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <!-- Define the different foliation schemes here -->
+
 
          <p>persName, placeName and orgName can also be encoded as ref, so all references are in
             ref. </p>
@@ -57,8 +59,6 @@
       <!-- It is possible to decide which tags will be published in the inventory (web or print) and which not. For example, the element <adminInfo> can be used to take notes for internal use about the opening hours of the library or the documents needed to access the manuscripts-->
       <body>
          <listBibl>
-
-
             <!-- Aarau AKB MsWett 42 -->
             <msDesc xml:id="Aarau_AKB_MsWettF42">
                <msIdentifier>
@@ -67,7 +67,7 @@
                   <idno>MsWettF 42</idno>
                </msIdentifier>
                <msContents>
-                  <summary>No attribution.</summary>
+                  <summary>None</summary>
                   <msItem xml:id="Aarau_AKB_MsWettF42_QsP">
                      <locus from="1ra" to="99va"/>
                      <title ref="workID">QsP</title>
@@ -172,7 +172,7 @@
                   <origin>
                      <origPlace ref="#place_cologne">Cologne</origPlace>
                      <origDate from="1486" to="1486">1486</origDate>
-                     <p>The watermark <watermark>P</watermark> is similar to <ref type="bibl"
+                     <p>The <watermark>watermark P</watermark> is similar to <ref type="bibl"
                            target="biblID">Piccard XII 81 and 155</ref>, both used in Cologne in
                         1486. This dating and origin could be confirmed a) by the date of the
                         editions inserted in the codex, all printed in 1485; b) by the fact that the
@@ -184,6 +184,82 @@
                <!-- add bibl -->
             </msDesc>
 
+            <!-- Amiens, Bibliothèque Louis Aragon (Bibliothèque municipale), 402* issue#6 -->
+            <msDesc xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402">
+               <msIdentifier>
+                  <settlement>Amiens</settlement>
+                  <repository>Bibliothèque Louis Aragon (Bibliothèque municipale)</repository>
+                  <idno>402*</idno>
+                  <idno type="URI">https://arca.irht.cnrs.fr/ark:/63955/md65v692t912</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>none</summary>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QsP">
+                     <locus from="1ra" to="112va"/>
+                     <title ref="QsP">QsP</title>
+                  </msItem>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QdC">
+                     <locus from="118ra" to="154rb"/>
+                     <title ref="QdC">QdC</title>
+                  </msItem>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QdG">
+                     <locus from="156ra" to="186va"/>
+                     <title ref="QdG">QdG</title>
+                  </msItem>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QsMete">
+                     <locus from="189ra" to="203vb"/>
+                     <title ref="QsMete">QsMete</title>
+                     <note type="desc">The QsMete is interrupted at question II.1. They are followed
+                        by 19 blanck numbered leaves, after which the QdA begin. </note>
+                     <note type="editorial">According to Flüeler, QPN: gekürzte und etwas
+                        abweichende Fassung. VERIFICA</note>
+                  </msItem>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QdA">
+                     <locus from="223ra" to="268ra"/>
+                     <title ref="QdA">QdA</title>
+                  </msItem>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QdSens">
+                     <locus from="271ra" to="284va"/>
+                     <title ref="QdSens">QdSens</title>
+                  </msItem>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QdMem">
+                     <locus from="285ra" to="288rb"/>
+                     <title ref="QdMem">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QdSom">
+                     <locus from="289ra" to="294vb"/>
+                     <title ref="QdSom">QdSom</title>
+                  </msItem>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QdLon">
+                     <locus from="296ra" to="297v"/>
+                     <title ref="QdLon">QdLon</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1451" to="1451"/>
+                     <p><watermark>The watermark, a shield with three lilia couroned with flowers
+                           (particularly visible in the first guard leafs and at ff. 39, 87, 95,
+                           116-117, 139, 188, 202, 204-205, 207, 256, 270, 295)</watermark>, is very
+                        similar to <ref type="bibl" target="ID">Briquet 1680</ref>, a variant of
+                        which was used in Paris in 1451. From 215-217, 221-222 variant with hook</p>
+                     <origPlace cert="medium">Paris</origPlace>
+                  </origin>
+                  <provenance>Just like <ref type="ms" target="id">ms. Amiens 405</ref>, it belonged
+                     to <orgName>monastery of St. Pierre</orgName> in <placeName>Corby</placeName>.
+                     On f. 1r, in the centre of the decoration, a later (17th century) hand wrote:
+                        <quote source="1r">monasterii sancti Petri Corbeiensis</quote>.
+                  </provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Catalogue général des manuscrits des bibliothèques publiques de France.
+                        Départements – tome XIX : Amiens, 191-192.</bibl>
+                     <bibl>De Raedemaeker, I 154.</bibl>
+                     <bibl>Lohr, Gallica, 226-227.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
 
             <!--Bamberg, Staatsbibliothek Bamberg, class 58/4 (HJ.IC.29)* issue#3-->
 
@@ -235,7 +311,8 @@
                   <settlement>Bamberg</settlement>
                   <repository>Staatsbibliothek Bamberg</repository>
                   <idno>Msc.Patr.150*</idno>
-                  <idno type="URI">https://resolver.staatsbibliothek-berlin.de/HSP0004E85D00000000</idno>
+                  <idno type="URI"
+                     >https://resolver.staatsbibliothek-berlin.de/HSP0004E85D00000000</idno>
                </msIdentifier>
                <msContents>
                   <summary>The commentary is ascribed to Versoris in the first colophon</summary>
@@ -279,8 +356,9 @@
                            <q>Explicit De ente et essentia magistri Versoris</q>.</p>
                      <origPlace ref="#placeID">Ulm</origPlace>
                      <p>The manuscript was copied in <placeName>Ulm</placeName> by <persName
-                           ref="ID">Nicolaus Unbehuen</persName> (as stated on f. 35r) or <persName
-                           ref="ID">Umbehauen </persName>(as stated on f. 137r). </p>
+                           ref="#NicolausUnbehuen">Nicolaus Unbehuen</persName> (as stated on f. 35r)
+                        or <persName ref="#NicolausUnbehuen">Umbehauen </persName>(as stated on f.
+                        137r). </p>
                   </origin>
                   <provenance>It belonged to the <orgName ref="ordID">Dominican convent</orgName>,
                      as indicated on f. 1r: <q>ordinis predicatorum</q>.</provenance>
@@ -304,12 +382,9 @@
                   <settlement>Basel</settlement>
                   <repository>Universitätsbibliothek</repository>
                   <idno>F II 14</idno>
-                  <altIdentifier type="sigla">
-                     <idno>Ba3</idno>
-                  </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary>No attribution.</summary>
+                  <summary>None</summary>
                   <msItem xml:id="Basel_UB_F-II-14_guardLeaf">
                      <locus>Paper guard-leaf at the beginning of the codex</locus>
                      <quote source="guard-leaf">Liber Cartusiensis in Basilea minori preveniens a
@@ -386,9 +461,6 @@
                   <settlement>Basel</settlement>
                   <repository>UB</repository>
                   <idno>F VI 4</idno>
-                  <altIdentifier>
-                     <idno>Ba6</idno>
-                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="Basel_UB_F-IV-4_QsP">
@@ -422,15 +494,11 @@
                   <settlement>Basel</settlement>
                   <repository>UB</repository>
                   <idno>F III 10</idno>
-                  <altIdentifier>
-                     <idno>Ba4</idno>
-                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <summary>The commentaries are ascribed to <persName role="attribution"
                         ref="persID">Versoris</persName> in the <ref type="msItem"
                         target="#msBa4_ToC">table of contents</ref>.</summary>
-
                   <msItem xml:id="Basel_UB_F-III-10_ToC">
                      <locus from="1r"/>
                      <quote source="1r">Contenta in hoc libro: Questiones magistri Versoris super
@@ -442,15 +510,15 @@
                         longitudine et brevitate vite; idem super omnes libros Methaphysice.</quote>
                      <!-- add refs to workIDs -->
                   </msItem>
-
                   <msItem xml:id="Basel_UB_F-III-10_QsP">
                      <locus from="3ra" to="114ra"/>
                      <title ref="workID">QsP</title>
                      <colophon source="78vb">Et sic est finis huius quinti Phisicorum in VIa
                         Palmarum, <date when="1458">anno Domini M° CCCC° LVIII°</date></colophon>
-                     <colophon source="90v">Et sic est finis sexti Phisicorum die secunda May [con
-                        due punti sulla i] <!-- cannot transcribe that? -->, <date when="1459">anno
-                           etc. LVIIII</date></colophon>
+                     <colophon source="90v">Et sic est finis sexti Phisicorum die secunda May <note
+                           type="editorial"> [con due punti sulla ï]</note>
+                        <!-- cannot transcribe that?. Yes, added JLL. U+00EF -->, <date when="1459"
+                           >anno etc. LVIIII</date></colophon>
                   </msItem>
 
                   <msItem xml:id="Basel_UB_F-III-10_QdC">
@@ -510,9 +578,6 @@
                   <settlement>Basel</settlement>
                   <repository>UB</repository>
                   <idno>F III 11</idno>
-                  <altIdentifier>
-                     <idno>Ba4</idno>
-                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <summary>The texts are ascribed to <persName role="attribution" ref="persID"
@@ -700,8 +765,9 @@
                      <note type="desc">Anonymous QdA. The first folio, probably containing an
                         eluminure, has been ripped out. The collation of the QdA and the QPN with
                         Johannes de Magistris’s commentaries enabled to identify the anonymous texts
-                        in the Colmar manuscript with them. [ELE: IS THIS THE RIGHT PLACE FOR THE
-                        LAST SENTENCE? Si, ma va separata dalla frase prima </note>
+                        in the Colmar manuscript with them. <note type="editorial">[ELE: IS THIS THE
+                           RIGHT PLACE FOR THE LAST SENTENCE? Si, ma va separata dalla frase
+                           prima</note></note>
                      <incipit>animam esse nobiliorem aut honorabiliorem. Altera autem, quia est
                         certior …</incipit>
                   </msItem>
@@ -759,6 +825,190 @@
                </additional>
             </msDesc>
 
+            <!-- Kraków, BJ 908*-->
+
+            <msDesc xml:id="Kraków_BJ_908">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>BJ</repository>
+                  <idno>908*</idno>
+                  <idno type="URI">https://jbc.bj.uj.edu.pl/publication/638126</idno>
+               </msIdentifier>
+               <msPart>
+                  <msIdentifier>
+                     <idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <!-- Incunabulum 1: Versoris on Ars nova and De ente et essentia -->
+                     <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_Inc1">
+                        <locus from="1r" to="128r"/>
+                        <title ref="ID">Questions on the Ars nova; De ente et essentia</title>
+                        <author>Joannes Versoris</author>
+                        <note>Printed in Cologne by Heinrich Quentell before 1489</note>
+                     </msItem>
+                     <!-- Incunabulum 2: Versoris on Ars vetus -->
+                     <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_Inc2">
+                        <locusGrp>
+                           <locus from="129r" to="204r" scheme="#bound"/>
+                           <locus from="1r" to="76r" scheme="#unbound"/>
+                        </locusGrp>
+                        <title ref="ID">Questions on the Ars vetus (Isagoge, Predicamenta, De
+                           interpretatione, De sex principiis)</title>
+                        <author>Joannes Versoris</author>
+                        <note>Printed in Cologne around 1487</note>
+                     </msItem>                     
+                  </msContents>
+                  <additional>
+                     <listBibl>
+                        <bibl>Hain 16029</bibl>
+                        <bibl>GW M50240</bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>None</summary>
+                     <!-- Manuscript item: QsPor -->
+                     <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QsPor">
+                        <locusGrp>
+                           <locus from="205r" to="216v" scheme="#bound"/>
+                           <locus from="1r" to="12v" scheme="#unbound"/>
+                        </locusGrp>
+                        <title ref="ID">QsPor</title>
+                        <note type="desc">These questions are preceded by two incunabula: 1.
+                           Versoris’s Questions on the Ars nova and De ente et essentia; 2.
+                           Versoris’s Questions on the Ars vetus (Isagoge, Predicamenta, De
+                           interpretatione, De sex principiis) and followed by two anonymous
+                           manuscript copies of commentaries on the Ars vetus: a set of Questions on
+                           Porphyry’s Isagoge</note>
+                     </msItem>
+
+                     <!-- Manuscript item: Anonymous Questions on Isagoge -->
+                     <msItem
+                        xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QsPorAnon">
+                        <locusGrp>
+                           <locus from="217r" to="308v" scheme="#bound"/>
+                           <locus from="13r" to="104v" scheme="#unbound"/>
+                        </locusGrp>
+                        <title ref="ID">Questions on Porphyry’s Isagoge</title>
+                        <incipit xml:lang="la">Circa initium Porphyrii queritur primo utrum logica
+                           rationalis scientia specialiter ab aliis scientiis sit distincta. Pro
+                           cuius questionis determinatione tria sunt videnda</incipit>
+                        <explicit xml:lang="la">penes modum essendi et predicandi de multis
+                           distinguuntur</explicit>
+                     </msItem>
+
+                     <!-- Manuscript item: Anonymous Questions on Predicamenta -->
+                     <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QsPred">
+                        <locusGrp>
+                           <locus from="308v" to="367r" scheme="#bound"/>
+                           <locus from="104v" to="163r" scheme="#unbound"/>
+                        </locusGrp>
+                        <title ref="ID">Questions on Aristotle’s Predicamenta</title>
+                        <incipit xml:lang="la">Circa initium libri Predicamentorum Aristotelis
+                           queritur primo utrum de predicamentis sit scientia. Pro quod sciendum
+                           primo quod, quia scientia est habitus intellectualis, videndum est quid
+                           sit habitus, quot sunt et quomodo distinguuntur</incipit>
+                        <explicit xml:lang="la" defective="true">supplet vicem speciei
+                           intelligibilis; est tamen sciendum…</explicit>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <foliation xml:id="bound"/>
+                        <foliation xml:id="unbound"/>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1500" to="1500">End of 15th.Century</origDate>
+                     <p>The dating of the incunabula bound together in the codex (around 1487–89;
+                        see the section on content) and the list of lectures attended by
+                        Iacobus from 1497 to 1500 (f. 204r) suggest that the volume was assembled at
+                        the end of the fifteenth century.</p>
+                  </origin>
+                  <provenance>The codex belonged to <persName ref="#IacobusBorkemanMariaeburgo">Iacobus Borkeman de
+                        Mariaeburgo</persName>, as indicated by the possession mark on the upper
+                     margin of f. 2r: <quote source="2r">Iacobi Borkeman Mariaenburgensis
+                        sum</quote>.</provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Markowski/Włodek, Cracoviensia, 67, 181</bibl>                     
+                  </listBibl>
+               </additional>
+
+            </msDesc>
+
+            <!-- Mainz, Wissenschaftliche Stadtbibliothek Mainz, Hs. I 541* issue#5-->
+
+            <msDesc xml:id="Mainz_WissenschaftlicheStadtbibliothekMainz_Hs.I-541">
+               <msIdentifier>
+                  <settlement>Mainz</settlement>
+                  <repository>Wissenschaftliche Stadtbibliothek Mainz</repository>
+                  <idno>Hs. I 541*</idno>
+                  <idno type="URI"
+                     >https://digi.ub.uni-heidelberg.de/diglit/mzstb_hs_i_541/0530</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem xml:id="Mainz_WissenschaftlicheStadtbibliothekMainz_Hs.I-541_QdA">
+                     <locus from="129r" to="178v"/>
+                     <title ref="ID">QdA</title>
+                     <note type="attribution">It seems not to have been copied by <persName ref="id"
+                           >Marcellus Geist</persName>.</note>
+                  </msItem>
+                  <msItem xml:id="Mainz_WissenschaftlicheStadtbibliothekMainz_Hs.I-541_QdC">
+                     <locus from="179r" to="231v"/>
+                     <title ref="ID">QdC</title>
+                     <note type="attribution">It seems not to have been copied by <persName ref="id"
+                           >Marcellus Geist</persName>.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1449" to="1452"/>
+                     <p>Date as evident from the colophons: <quote source="240ra">Hanc determinavi
+                           questionem feria quarta, post decollationem Iohannis Baptiste, anno
+                           domini 1449, de mane, presidente magistro Iohanni Buschbach, sui magister
+                           unius anni cum dimidio</quote>, f. 240ra; <quote source="258va">Hec
+                           questio determinata est per magistrum Marcellum Geyst, anno millesimo
+                           quadrigentesimo quinquagesimo, sexta feria ante nativitatis Marie, in
+                           tertio anno magistratus ipsius</quote>, f. 258va; <quote
+                           source="270v, marg. sup.">edita a magistro Marcello, anno LII</quote>
+                     </p>
+                     <p>This codex contains texts copied by <persName ref="id">Marcellus
+                           Geist</persName>, who studied and taught at <orgName>Heidelberg
+                           University</orgName> until 1452. In 1454, he entered the
+                           <orgName>Carthusian Order</orgName> and was appointed prior in
+                           <placeName>Mainz</placeName> in 1470.</p>
+                  </origin>
+                  <provenance>After Marcellus death, the codex passed into the possession of the
+                        <orgName>library of the Mainz Carthusians</orgName>.</provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Schreiber, Kartause, 45, 63 n. 6, 64</bibl>
+                     <bibl>Krämer, Handschriftenerbe der Kartäuser im Spiegel ausgewählter
+                        Handschriften der Wissenschaftlichen Stadtbibliothek Mainz, 2021, 3, n. 181.
+                           <ref
+                           target="http://archiv.ub.uni-heidelberg.de/artdok/volltexte/2021/7478"
+                           >accessible online</ref></bibl>
+                     <bibl>C. Winterer, Fortsetzung der Katalogisierung der Handschriften der
+                        Wissenschaftlichen Stadtbibliothek Mainz. Vorläufige Beschreibungen Hs I 491
+                        - Hs I 512 und ab Hs I 530. <ref
+                           target="https://handschriftenportal.de/search?hspobjectid=HSP-ebeb374c-b7fa-344f-80d6-d3ee2ee2f623&amp;q=mainz+Hs.+I+541&amp;hl=true#hsp-descriptions"
+                           >accessible online</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <!--München, BSB, Clm 14518* issue#4-->
 
             <msDesc xml:id="München_BSB_Clm_14518">
@@ -768,8 +1018,7 @@
                   <repository>BSB</repository>
                   <idno>Clm 14518*</idno>
                   <!--asterisk ?-->
-                  <idno type="URI"
-                     >https://www.digitale-sammlungen.de/de/view/bsb00109490</idno>
+                  <idno type="URI">https://www.digitale-sammlungen.de/de/view/bsb00109490</idno>
                </msIdentifier>
                <msContents>
                   <!--from Content -->
@@ -795,8 +1044,9 @@
                      <p>Date as read at the end of book V of <persName ref="p_id">Peter of
                            Spain</persName>’s <title ref="w_ID">Summulae</title>, f. 193r.</p>
                      <p>The manuscript was copied and owned by the monk <persName
-                        ref="#HenricusErlbach">Heinrich Erlbach</persName>, from the benedictine
-                        monastery of <orgName>Saint Emmeram</orgName> in <placeName>Regensburg</placeName>. His name appears in the colophons:
+                           ref="#HenricusErlbach">Heinrich Erlbach</persName>, from the benedictine
+                        monastery of <orgName>Saint Emmeram</orgName> in
+                           <placeName>Regensburg</placeName>. His name appears in the colophons:
                            <quote source="181v">frater Henricus ordinis divi Benedicti</quote>, f.
                         181v; <quote source="274v">Heinricus Erlbach, tunc temporis scolaris veteris
                            cappelle Ratisbonensis</quote>, f. 274v.</p>
@@ -942,7 +1192,7 @@
                <msContents>
                   <summary>None</summary>
                   <msItem xml:id="NürnbergStadtbibliothekimBildungscampusNürnberg_CentVII86_CsPH">
-                     <locus from="1ra" to="108vb"> I-IV</locus>
+                     <locus from="1ra" to="108vb">I-IV</locus>
                      <note type="content">The text is acephalus and begins with the words: <q>eius,
                            sicut proprium consequitur speciem</q> (book I). It ends unfinished at
                         book V with the words: <q>ergo quoddam corpus est ubique, quia</q>. </note>
