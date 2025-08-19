@@ -7,7 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title ref="ID">Versoris manuscript inventory</title>
-            <editor>Aurora Panzica</editor>
+            <editor ref="ID">Aurora Panzica</editor>
             <respStmt>
                <resp>TEI modelling and encoding</resp>
                <persName ref="ID">Elena Spadini</persName>
@@ -1506,6 +1506,176 @@
                         Versoris’s QdA as “Lectiones in Perihermeneias”); Lohr II, 120-121
                         (Richardus de Bovilla). </bibl>
                   </listBibl>
+               </additional>
+            </msDesc>
+
+            <!-- Saint Omer, Bibliothèque d’Agglomération du Pays de Saint-Omer (Bibliothèque municipale), 586 issue#8 -->
+
+            <msDesc xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586">
+               <msIdentifier>
+                  <settlement>Saint Omer</settlement>
+                  <repository>Bibliothèque d'Agglomération du Pays de Saint-Omer (Bibliothèque
+                     municipale)</repository>
+                  <idno>586</idno>
+                  <idno type="URI"
+                     >https://bibliotheque-numerique.bibliotheque-agglo-stomer.fr/idurl/1/18305</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586_QsP">
+                     <locus from="1ra" to="118rb"/>
+                     <title ref="workID">QsP</title>
+                     <colophon source="23rb" n="book I">Et hoc de questione, et per consequens de
+                        toto primo Phisicorum, scripto in vico Straminis sub venerabili ac discreto
+                        <note type="editorial">my conjecture, the manuscript has a reading
+                           similar to “transcripto”</note> viro, magistro Clemente Parmentarii,
+                        venerabilis nationis Normanne, per me Philippum Goupil, eiusdem nationis,
+                        dyocesis Rothomagentis, anno Domini M°CCCC°XL<hi rend="superscript">mo</hi> III°, duodecima mensis
+                        novembris. Philip Goupil <metamark function="signum"/></colophon>
+                     <colophon source="41rb" n="book II">Explicit secundus Phisicorum, perscriptus in vigilia
+                        conceptionis beate Marie virginis, festis Normanne sub venerabili magistro,
+                        magistro Clemente Parmentarii per scriptorem supra dictum venerabilis
+                        Normanne nationis</colophon>
+                     <colophon source="52vb" n="book III">Et hoc de toto libro tertio Phisicorum, scripto in vico
+                        Straminis sub venerabili magistro, magistro Clemente Parmentarii, actu
+                        regente Parisiis, per me Philippum Goupil, venerabilis Normanne nationis,
+                        anno Domini M°CCCC°XL<hi rend="superscript">mo</hi> III° [sic pro IIII°], die penultima mensis
+                        decembris. Philip Goupil <metamark function="signum"/></colophon>
+                     <colophon source="71vb" n="book IV">Et hoc de toto quarto Phisicorum, scripto in vico
+                        Straminis sub magistro Clemente Parmentarii nationis Normanne, actu regente
+                        Parisiis, per me Philippum Goupil eiusdem venerabilis nationis, anno Domini
+                        M°CCCC°XLmo III° [sic pro IIII°], die quarta mensis februarii. Philip
+                        Goupil <metamark function="signum"/></colophon>
+                     <colophon source="81ra" n="book V">Et hoc de questione, et per consequens de toto quinto
+                        Phisicorum, peracto in vico Straminis sub venerabili viro, magistro Clemente
+                        Parmentarii, venerabilis Normanne nationis, per me Philippum Goupil eiusdem
+                        nationis, dyocesis Rothomagensis, decima scripta die februarii, anno XLmo
+                        III° [sic pro IIII°]. P. Goupil <metamark function="signum"/></colophon>
+                     <colophon source="93ra" n="book VI">Et hoc de questione, et per consequens de toto sexto
+                        Phisicorum Aristotelis, perscripto in die sancti Thome de Aquino sub
+                        magistro Clemente Parmentarii, per me Philippum Goupil Normanne nationis,
+                        anno Domini 1443° [sic pro 1444°]. P. Goupil <metamark function="signum"/></colophon>
+                     <colophon source="101rb" n="book VII">et hoc de questione, et per consequens de toto septimo
+                        Phisicorum, scripto sub magistro predicto per manum predicti studentis, anno
+                        supradicto. Explicit septimus Phisicorum. P. Goupil <metamark function="signum"/></colophon>
+                     <colophon source="117vb" n="book VIII">et hoc de questione, et per consequens de toto octavo
+                        libro Phisicorum qui dicitur 'de physico auditu', scripto ut parto in vico
+                        Straminis Parisius, sub venerabili viro, magistro Clemente Permentarii,
+                        venerabilis nationis Normanne, per me, Philippum Goupil eiusdem nationis,
+                        Rothomagentis dyocesis, anno Domini 1443° [sic pro 1444°], die mercuri
+                        octava aprilis ante festum Pasche. P. Goupil <metamark function="signum"/></colophon>
+                  </msItem>
+                  
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586_QdC">
+                     <locus from="120ra" to="159rb"/>
+                     <title ref="workID">QdC</title>
+                     <colophon source="138va" n="book I">et hoc de questione, et per consequens de toto primo
+                        Celi et mundi, scripto sub magistro Clemente Permentarii, commorante in domo
+                        reverendissimi magistri Petri Richeri in theologia licentiati, venerabilis
+                        nationis Normanne, per me, Philippum Goupil eiusdem nationis, Rothomagentis
+                        dyocesis, anno Domini 1444to, decima octava die mensis aprilis post Pascham.
+                        P. Goupil <metamark function="signum"/></colophon>
+                     <colophon source="159rb" n="book III">et hoc de questione, et de toto libro quarto Celi et
+                        mundi, perscripto quindecima die mensis julii in vico Straminis sub predicto
+                        magistro per manum predicti scriptoris. P. Goupil <metamark function="signum"/></colophon>
+                  </msItem>
+                  
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586_QdG">
+                     <locus from="161ra" to="186vb"/>
+                     <title ref="workID">QdG</title>
+                     <colophon source="175vb" n="book I">et hoc de questione, et per consequens de toto primo
+                        libro De generatione et corruptione, scripto in vico Straminis in vigilia
+                        beati Bernardi, sub magistro Clementi Parmentarii, per me, Philippum Goupil,
+                        venerabilis nationis Normane, dyocesis Rothomagentis. P. Goupil <metamark function="signum"/></colophon>
+                     <colophon source="186va" n="book II">et hoc de questione, et per consequens de toto secundo
+                        libro De generatione et corruptione, scripto secunda die mensis septembris.
+                        Explicit secundus De generatione et corruptione. P. Goupil <metamark function="signum"/></colophon>
+                  </msItem>
+                  
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586_QsMete">
+                     <locus from="188ra" to="214ra"/>
+                     <title ref="workID">QsMete</title>
+                     <colophon source="200va" n="book I">et hoc de questione, et de toto primo libro
+                        Metheororum, scripto in vico Straminis sub magistro Clemente Parmentarii
+                        venerabilis Normanne nationis, per me, Philippum Goupil, eiusdem nationis,
+                        dyocesis Rothomagensis. P. Goupil <metamark function="signum"/></colophon>
+                     <colophon source="208vb" n="book II">et hoc de questione, et de toto secundo Metheororum
+                        libro, scripto in festo sancti Dominici, anno supradicto, sub magistro
+                        supradicto, per manum predicti studentis. P. Goupil <metamark function="signum"/></colophon>
+                  </msItem>
+                  
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586_QdA">
+                     <locus from="215ra" to="266vb"/>
+                     <title ref="workID">QdA</title>
+                     <colophon source="218vb" n="book I">P. Goupil <metamark function="signum"/></colophon>
+                     <colophon source="252vb" n="book II">P. Goupil <metamark function="signum"/></colophon>
+                     <colophon source="266ra" n="book III">P. Goupil <metamark function="signum"/></colophon>
+                  </msItem>
+                  
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586_QsSen">
+                     <locus from="267ra" to="280rb"/>
+                     <title ref="workID">QsSen</title>
+                     <colophon source="280vb">et hoc de questione et per consequens de toto libro De
+                        sensu et sensato, scripto in camera, per me, Philippum Goupil venerabilis
+                        nationis Normnane propter cessationes factas in universitate ab omni actu
+                        scolastico, tam occulto quam manifesto, ob occasione aliquarum iniuriarim in
+                        personam domini rectoris huius alme universitatis Parisiensis, nec non
+                        aliorum magistrorum quam plurimorum eiusdem universitatis imperperatarum,
+                        anno Domini M°CCCC°XLIIII<hi rend="superscript">to</hi> septima die septembris, in vigilia conceptionis
+                        beatissime Virginis, P. Goupil <metamark function="signum"/></colophon>
+                  </msItem>
+                  
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586_QsMem">
+                     <locus from="281va" to="284va"/>
+                     <title ref="workID">QsMem</title>
+                  </msItem>
+                  
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586_QsSom">
+                     <locus from="285ra" to="290ra"/>
+                     <title ref="workID">QsSom</title>
+                  </msItem>
+                  
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586_QsLon">
+                     <locus from="291ra" to="292va"/>
+                     <title ref="workID">QsLon</title>
+                     <colophon source="292va">et hoc de questione et de toto libro De longitudine et
+                        brevitate vite, et per consequens de tota philosophia naturali, finita anno
+                        Domini M°CCCC°XLIIII°, undecima die mensis septembris, P. Goupil <metamark function="signum"/></colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1443" to="1444">1443–1444</origDate>
+                     <p>The date is attested by <persName ref="persID">Philip Goupil</persName> in the numerous colophons, most of
+                        which bear precise date indication</p>
+                     <p>The manuscript was copied by <persName ref="persID">Philippe
+                        Goupil</persName>, a student in the house of <persName ref="persID"
+                           >Pierre Richier</persName> (Petrus Richeri), under the supervision of the
+                        master <persName ref="persID">Clément Parmentier</persName> (Clemens
+                        Parmentarii), as indicated by the numerous colophons throughout the
+                        codex.</p>
+                  </origin>
+                  <provenance>Two possession marks attest that the manuscript was owned by <persName
+                     ref="IacobusPol">Iacob Pol</persName>, a student in Paris and later a friar
+                        at the Abbey of Saint-Bertin: <quote source="1v, marg. sup.">Ista philosophia pertinet fratri Jacobi Pol,
+                        religioso ecclesiae sancti Bertini in Sancto Audomaro, Morinensis
+                        diocesis</quote>;<quote source="2v, marg. sup.">Hunc librum acquisivit frater Jacobus Pol,
+                        tempore quo fuit scolaris Parisiensis</quote>
+                  </provenance>
+               </history>
+               
+               <additional>
+                  <listBibl>
+                     <bibl>
+                        <note type="biblio">Suprisingly not in Lohr, Aristotelica gallica</note>
+                     </bibl>
+                     <bibl> Livesey, Science in the Monastery. Texts, Manuscripts and Learning at
+                        Saint-Bertin, Turnhout 2020, 189-192 <note type="biblio">The texts are here presented as
+                           Questiones naturales of Aristotle and ascribed to Clémens
+                           Parmentier</note>
+                     </bibl>
+                  </listBibl>
+                  
                </additional>
             </msDesc>
 

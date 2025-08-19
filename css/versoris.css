@@ -167,7 +167,12 @@ tei-note[type="desc"]::before {
     font-weight: bold;
 }
 
-tei-note[type="editorial"] {
+tei-note[type="biblio"]::before {
+    content: "Note (biblio): ";
+    font-weight: bold;
+}
+
+#PersonRegister tei-note[type="editorial"] {
     display: none;
 }
 
@@ -423,6 +428,10 @@ tei-colophon[n]::after {
 			background-color: #FF8C00;
 		}
 
+        	tei-faith[type="unknown"] {
+			display: none;
+		}
+
 		tei-faith[type="secular"]::before {
 			content: "secular";
 		}
@@ -436,13 +445,42 @@ tei-colophon[n]::after {
 			line-height: 1.6;
 		}
 
+        tei-note[type="biblio"]::before {
+            content: "Note (biblio): ";
+            font-weight: bold;
+}
+
 		tei-occupation {
 
 		}
 
+        #PersonRegister tei-note[type="role"]::before {
+            content: "Note (role): ";
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
+        #PersonRegister tei-note[type="role"]{
+            margin-left: 20px;
+            border: none;
+            background: none;
+        }
+
+
         div.tei-occupation::before {
             content: "Role: ";
             font-weight: bold;
+        }
+
+        #PersonRegister tei-listBibl::before {
+            content: "Bibliography";
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        #PersonRegister tei-listBibl {
+            margin-left: 0px;
         }
 
 		tei-idno {
@@ -553,3 +591,18 @@ tei-colophon[n]::after {
 		.identifiers {
 			margin: 10px 0;
 		}
+
+        tei-provenance {
+            display: block;
+            margin-bottom: 10px;
+            margin-left: 20px;
+        }
+
+        tei-provenance::before {
+            content: "Provenance: ";
+            font-weight: bold;
+        }
+
+        tei-metamark[function="signum"]::before {
+            content: "(signum)"
+        }

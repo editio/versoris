@@ -97,50 +97,11 @@
 		const roleMapping = {
 			'fmo': 'Former owner',
 			'scr': 'Scribe',
-			'pbl': 'Publisher',
-			'bkp': 'Book producer',
-			'bnd': 'Binder',
-			'art': 'Artist',
-			'ill': 'Illustrator',
-			'rub': 'Rubricator',
-			'pat': 'Patron',
-			'dnr': 'Donor',
-			'own': 'Owner',
 			'ann': 'Annotator',
-			'cre': 'Creator',
 			'aut': 'Author',
-			'trl': 'Translator',
-			'edt': 'Editor',
-			'com': 'Compiler',
-			'cor': 'Collection registrar',
-			'ctb': 'Contributor',
-			'dub': 'Dubious author',
-			'dte': 'Dedicatee',
-			'dto': 'Dedicator',
-			'fnd': 'Funder',
-			'his': 'Host institution',
-			'lbr': 'Laboratory',
-			'lbt': 'Librettist',
-			'lse': 'Licensee',
-			'lso': 'Licensor',
-			'ltg': 'Lithographer',
-			'mte': 'Metal-engraver',
-			'oth': 'Other',
-			'ppm': 'Papermaker',
-			'prt': 'Printer',
-			'pup': 'Publication place',
-			'rcp': 'Addressee',
-			'res': 'Researcher',
-			'rsr': 'Restorer',
-			'sec': 'Secretary',
-			'sgn': 'Signer',
-			'spn': 'Sponsor',
-			'stl': 'Storyteller',
-			'tyd': 'Type designer',
-			'tyg': 'Typographer',
-			'voc': 'Vocalist',
-			'wde': 'Wood engraver',
-			'wit': 'Witness'
+            'tch': 'Master', // actully "teacher" in the relator vocabulary,
+            'dis': 'Student' // actully "disertant" in the relator vocabulary,
+
 		};
 	  
 		// Define global behaviors for TEI elements
@@ -209,12 +170,19 @@
 													  personElement.children).filter(child => 
 													  child.tagName && child.tagName.toLowerCase().includes('occupation'));
 					
-					// Group occupations by role
+					// Group occupations by role and collect notes
 					const roleGroups = {};
+					const occupationNotes = [];
 					
 					allOccupations.forEach(occupation => {
 						const role = occupation.getAttribute('role');
 						const ref = occupation.getAttribute('ref');
+						
+						// Extract notes from this occupation element
+						const notes = occupation.querySelectorAll('tei-note') || occupation.querySelectorAll('note');
+						notes.forEach(note => {
+							occupationNotes.push(note);
+						});
 						
 						if (role) {
 							const roles = role.split(' ').map(r => r.trim());
@@ -242,7 +210,7 @@
 						
 						if (refs.length > 0) {
 							const roleSpan = document.createElement('span');
-							roleSpan.textContent = `${roleLabel} of mss. `;
+							roleSpan.textContent = `${roleLabel} related to mss. `;
 							
 							refs.forEach((msId, index) => {
 								const link = document.createElement('span');
@@ -274,6 +242,19 @@
 							if (index < roleParts.length - 1) {
 								container.appendChild(document.createTextNode('; '));
 							}
+						});
+					}
+					
+					// Add notes if they exist
+					if (occupationNotes.length > 0) {
+						occupationNotes.forEach(noteElement => {
+							const noteContainer = document.createElement('tei-note');
+							// Copy the type attribute if it exists
+							if (noteElement.hasAttribute('type')) {
+								noteContainer.setAttribute('type', noteElement.getAttribute('type'));
+							}
+							noteContainer.innerHTML = noteElement.innerHTML;
+							container.appendChild(noteContainer);
 						});
 					}
 					

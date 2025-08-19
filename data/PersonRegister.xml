@@ -90,6 +90,36 @@
                   <bibl/>
                </listBibl>
             </person>
+            
+            <!-- Georgius Erber de Aibling issue#24 -->
+            
+            <person xml:id="GeorgiusErberDeAibling">
+               <name xml:lang="lat">Georgius Erber de Aibling</name>
+               <death notBefore="1463"/>
+               <note>After studying at the universities of Erfurt (1452) and Vienna (1455), Georgius
+                  Erber moved to Paris, where he was affiliated with the Anglo-German Nation and was
+                  a member of the Collège de la Marche (1460–1463). He obtained the degree of
+                  Bachelor of Arts in 1461 and the degree of Master in 1463. During this period, he
+                  acquired two volumes containing commentaries attributed to Versoris – one on
+                  natural philosophy and the other on logic – which he brought with him when,
+                  shortly after completing his studies, he moved to Coburg</note>
+               <faith type="unknown"/>
+               <occupation role="fmo" ref="#Berlin_SB-PK_lat.fol.402"/>
+               <occupation role="fmo" ref="#Berlin_SB-PK_Hdschr.435"/>
+               <listBibl>
+                  <bibl>Auctarium II, col. 948, l. 19; VI, col. 360, l. 24; col. 375, l. 5; col.
+                     377, l. 2</bibl>
+                  <bibl>C. Meyer, "La compilation sur la musique de Georgius Erber (Paris,
+                     1460-1462)". Innsbruck, Universitatsbibliothek, Cod. 962, f. 128r-163r <note
+                        type="biblio">Introduction, commentary and text edition (uploaded in HAL 18
+                        mai 2017): <ref>https://hal.archives-ouvertes.fr/hal-01522251</ref>, 2, n.
+                        4-5</note></bibl>
+                  <bibl>K. HEYDECK, Die mittelalterlichen Handschriften der Universitätsbibliothek
+                     Rostock, Wiesbaden, 2001, 33–36</bibl>
+                  <bibl>A. Panzica, Entre musique et philosophie: Nouvelles sources sur Georgius
+                     Erber (Paris, 1460-1463).</bibl>
+               </listBibl>
+            </person>
 
 
             <person xml:id="IacobusLouber">
@@ -110,6 +140,94 @@
                   <bibl>M. Burckhardt, “Aus dem Umkreis der ersten Basler Universitätsbibliothek”,
                      Basler Zeitschrift für Geschichte und Altertumskunde 58/59 (1959), 155-191, at
                      176-179</bibl>
+               </listBibl>
+            </person>
+
+            <!-- Iacobus Pol, OSB issue#9 -->
+            
+            <person xml:id="IacobusPol">
+               <name xml:lang="lat">Iacobus Pol</name>
+               <birth notAfter="1447"/>
+               <death when="1500"/>
+               <note>Iacobus Pol studied at the universities of Paris and Cologne, as attested by
+                  manuscripts Saint-Omer, Bibliothèque d'Agglomération du Pays de Saint-Omer, Ms 586
+                  (copied in Paris), Ms 162 and Boulogne-sur-Mer, Bibliothèque Municipale, Ms. 28
+                  (both of them copied in Cologne). The first manuscript, which contains Versoris's
+                  commentary on the natural philosophical corpus, bears the following possession
+                  mark: <quote source="2v, marg. sup.">Hunc librum acquisivit frater Jacobus Pol,
+                     tempore quo fuit scolaris Parisiensis</quote>. The second manuscript,
+                  containing Iohannes Tinctoris's commentary on the first and third parts of Thomas
+                  Aquinas's Summa theologiae, includes two relevant notes. The first reads: <quote
+                     source="1r, marg. sup.">pro fratre Iacobo Pol, monacho sancti Bertini in sancto
+                     Audomaro</quote>. The second, partially damaged by water, appears as follows:
+                  <quote source="2v, marg. sup.">Incipit quedam lectura <damage agent="water"><supplied resp="#AP"
+                     >super primam et secundam</supplied></damage><note type="editorial">my conjecture;
+                        the text is unreadable due to water damage</note> partem beati Thome de
+                     Aquino, ad pennam pronunciata ab egregio viro, magistro Iohanne Tinctoris,
+                     artium magistro ac sacre theologie doctore famosissimo eiusdemque divine
+                     cultore precipuo</quote> to which another hand (the same as in the first
+                  ownership mark) adds: <quote source="2v, marg. sup.">quam fecit scribi frater
+                     Iacobus, religiosus sancti Bertini, tempore quo mansit Colonie</quote>. The
+                  third manuscript, containing Iohannes de Mechelinis's Commentary on De divinis
+                  nominibus, contains the following ex-libris: <quote source="217, marg. inf.">Hunc librum fecit scribi fr. Jacobus
+                     Pol Colonie, pro monasterio Sancti Bertini, et fuit compositus per magistrum
+                     Iohannem de Mechelinia, professorem in theologia, tunc temporis in ipsa facultate
+                     regentem atque legente</quote>. Iacobus Pol entered the Benedictine
+                  monastery of Saint-Bertin before 1447. He served as prior twice: first between
+                  1450 and 1473, and again from 1474 to 1481. He died in 1500.</note>
+               <faith subtype="OSB" type="religious">Benedictine</faith>
+               <occupation role="fmo" ref="#SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586"/>
+               <listBibl>
+                  <bibl>Grabmann, "Der belgische Thomist", 432-433</bibl>
+                  <bibl>Livesey, Science in the monastery, 189-192</bibl>
+               </listBibl>
+            </person>
+            
+            <!--  Iohannes Coromines (Colomines, Cormines) issue#16 -->
+            
+            <person xml:id="IohannesCoromines">
+               <name xml:lang="lat">Iohannes Coromines</name>
+               <name xml:lang="lat">Iohannes Colomines</name>
+               <name xml:lang="lat">Iohannes Cormines</name>
+               <birth notAfter="1444"/>
+               <death notBefore="1447"/>
+               <note>Originally from the Diocese of Barcelona (Dioecesis Barchinonensis), he was a
+                  member of the French Nation at the Faculty of Arts in Paris. He incepted in the
+                  Arts in 1444; studied theology under Robertus Ciboule and obtained his licentiate
+                  in 1458. He served as procurator of the French Nation from August 1447.</note>
+               <faith type="unknown"/>
+               <occupation role="dis" ref="#Oxford_BodleianLibrary_Canon.Misc.211"><note type="role">Student for whom Johannes Run copied the texts</note></occupation>
+               <listBibl>
+                  <bibl>Auctarium V, col. 42, l. 38; col. 47, l. 23; col. 113, l. 22; col. 151, l.
+                     4; col. 216, l. 45; col. 217, l. 5; col. 218, l. 17, l. 24, l. 40, l. 41; col.
+                     219, l. 8, l. 15, l. 24, l. 36, l. 45; col. 220, l. 6, l. 14, l. 29, l. 38, l.
+                     41, l. 44; col. 221, l. 24, l. 47; col. 222, l. 18; col. 223, l. 2, l. 12, l.
+                     30, l. 35; col. 224, l. 2, l. 5, l. 6, l. 10; col. 236, l. 49; col. 237, l. 34;
+                     col. 277, l. 22, l. 41; col. 300, l. 35, l. 42; col. 304, l. 43; col. 321, l.
+                     45; col. 329, l. 16, l. 37, l. 44; col. 330, l. 2, l. 49; col. 331, l. 31, l.
+                     39; col. 332, l. 22; col. 333, l. 47; col. 334, l. 10, l. 39; col. 366; col.
+                     466, l. 10; col. 497, l. 20; col. 522, l. 3; col. 542, l. 7, l. 20; col. 552,
+                     l. 24; col. 631, l. 7, l. 18; l. 722, l. 12</bibl>
+                  <bibl>Sullivan, Parisian Licentiates II, 32, 140, 159, 172-173.</bibl>
+               </listBibl>
+            </person>
+            
+            <!--  Iohannes Run issue#15 -->
+            
+            <person xml:id="IohannesRun">
+               <name xml:lang="lat">Iohannes Run</name>
+               <birth notAfter="1444"/>
+               <death notBefore="1444"/>
+               <note>Originally from the diocesis of Tréguier (Trecorensis) in Bretagne, he licensed
+                  and incepted at the Arts Faculty of the University of Paris in Mai 1444.</note>
+               <faith type="unknown"/>
+               <occupation role="scr" ref="#Oxford_BodleianLibrary_Canon.Misc.211"><note type="role">in <ref target="#Oxford_BodleianLibrary_CanonMisc211" type="ms">ms. 211</ref> he wrote for Iohannes de Colomines</note></occupation>
+               <occupation role="scr" ref="#Oxford_BodleianLibrary_Canon.Misc.486"/>
+               <listBibl>
+                  <bibl>Auctarium V, col. 44, l. 15; col. 48, l. 30</bibl>
+                  <bibl>Deuffic, "Copistes Bretons", 181, 182</bibl>
+                  <bibl>Rouse &amp; Rouse, Illiterati et uxorati, 85</bibl>
+                  <bibl>Sullivan, Parisian Licentiates, II, 173</bibl>
                </listBibl>
             </person>
 
@@ -141,6 +259,7 @@
                      1250-1500, Leiden/Boston 2008, 35, 224, 267.</bibl>
                </listBibl>
             </person>
+            
             <person xml:id="IacobusBorkemanMariaeburgo">
                <name xml:lang="lat">Iacobus Borkeman de Mariaeburgo</name>
                <!-- Copernicus enrolled in 1491 -->
@@ -149,7 +268,7 @@
                <note>He enrolled at the <orgName>University of Cracow</orgName> in 1497 and obtained
                   the degree of baccalarius in 1504.</note>
                <faith type="secular"/>
-               <occupation role="fmo" ref="#Kraków_BJ_908"/>               
+               <occupation role="fmo" ref="#Kraków_BJ_908"/>
                <listBibl>
                   <bibl>Album studiosorum II, 41.</bibl>
                   <bibl>Liber prom. 139.</bibl>
