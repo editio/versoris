@@ -59,6 +59,26 @@
                </listBibl>
             </person>
 
+            <!--  Galcerandus Benedicti (or Garcerandus Benedicti) issue#7 -->
+            
+            <person xml:id="GalcerandusBenedicti">
+               <name xml:lang="lat">Galcerandus Benedicti</name>
+               <name xml:lang="lat">Garcerandus Benedicti</name>
+               <birth notAfter="1447"/>
+               <death notBefore="1450"/>
+               <note>From the diocese of Lerida (diocesis Ilerdensis or Hilardensis), belonged to
+                  the French Nation. He studied under Clémens Parmentier, obtained his bachelor
+                  degree in 1447 and licensed in 1448 under the master Petrus Caroz. His activity at
+                  the Arts Faculty is attested until 1450.</note>
+               <faith type="unknown"/>
+               <occupation role="scr" ref="#Oxford_BodleianLibrary_Canon.Misc.211"/>
+               <listBibl>
+                  <bibl>Auctarium V, col. 196, l. 3; col. 254, l. 18-19; col. 255, l. 16; col. 262,
+                     l. 30; col. 277, l. 38; 293, l. 13; col. 332, l. 34; col. 373, l. 37</bibl>
+                  <bibl>Rouse &amp; Rouse, Illiterati et uxorati, 31</bibl>
+                  <bibl>Sullivan, Parisian Licentiates, II, 410.</bibl>
+               </listBibl>
+            </person>
 
             <person xml:id="GeorgSchwarz">
                <!-- ELE: missing identifier. Create GND and Wikidata. JL: Check CERL! bc its there -->
@@ -90,9 +110,9 @@
                   <bibl/>
                </listBibl>
             </person>
-            
+
             <!-- Georgius Erber de Aibling issue#24 -->
-            
+
             <person xml:id="GeorgiusErberDeAibling">
                <name xml:lang="lat">Georgius Erber de Aibling</name>
                <death notBefore="1463"/>
@@ -144,7 +164,7 @@
             </person>
 
             <!-- Iacobus Pol, OSB issue#9 -->
-            
+
             <person xml:id="IacobusPol">
                <name xml:lang="lat">Iacobus Pol</name>
                <birth notAfter="1447"/>
@@ -160,31 +180,33 @@
                   Aquinas's Summa theologiae, includes two relevant notes. The first reads: <quote
                      source="1r, marg. sup.">pro fratre Iacobo Pol, monacho sancti Bertini in sancto
                      Audomaro</quote>. The second, partially damaged by water, appears as follows:
-                  <quote source="2v, marg. sup.">Incipit quedam lectura <damage agent="water"><supplied resp="#AP"
-                     >super primam et secundam</supplied></damage><note type="editorial">my conjecture;
-                        the text is unreadable due to water damage</note> partem beati Thome de
-                     Aquino, ad pennam pronunciata ab egregio viro, magistro Iohanne Tinctoris,
-                     artium magistro ac sacre theologie doctore famosissimo eiusdemque divine
-                     cultore precipuo</quote> to which another hand (the same as in the first
-                  ownership mark) adds: <quote source="2v, marg. sup.">quam fecit scribi frater
-                     Iacobus, religiosus sancti Bertini, tempore quo mansit Colonie</quote>. The
-                  third manuscript, containing Iohannes de Mechelinis's Commentary on De divinis
-                  nominibus, contains the following ex-libris: <quote source="217, marg. inf.">Hunc librum fecit scribi fr. Jacobus
-                     Pol Colonie, pro monasterio Sancti Bertini, et fuit compositus per magistrum
-                     Iohannem de Mechelinia, professorem in theologia, tunc temporis in ipsa facultate
-                     regentem atque legente</quote>. Iacobus Pol entered the Benedictine
+                     <quote source="2v, marg. sup.">Incipit quedam lectura <damage agent="water"
+                           ><supplied resp="#AP">super primam et secundam</supplied></damage><note
+                        type="editorial">my conjecture; the text is unreadable due to water
+                        damage</note> partem beati Thome de Aquino, ad pennam pronunciata ab egregio
+                     viro, magistro Iohanne Tinctoris, artium magistro ac sacre theologie doctore
+                     famosissimo eiusdemque divine cultore precipuo</quote> to which another hand
+                  (the same as in the first ownership mark) adds: <quote source="2v, marg. sup."
+                     >quam fecit scribi frater Iacobus, religiosus sancti Bertini, tempore quo
+                     mansit Colonie</quote>. The third manuscript, containing Iohannes de
+                  Mechelinis's Commentary on De divinis nominibus, contains the following ex-libris:
+                     <quote source="217, marg. inf.">Hunc librum fecit scribi fr. Jacobus Pol
+                     Colonie, pro monasterio Sancti Bertini, et fuit compositus per magistrum
+                     Iohannem de Mechelinia, professorem in theologia, tunc temporis in ipsa
+                     facultate regentem atque legente</quote>. Iacobus Pol entered the Benedictine
                   monastery of Saint-Bertin before 1447. He served as prior twice: first between
                   1450 and 1473, and again from 1474 to 1481. He died in 1500.</note>
                <faith subtype="OSB" type="religious">Benedictine</faith>
-               <occupation role="fmo" ref="#SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586"/>
+               <occupation role="fmo"
+                  ref="#SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586"/>
                <listBibl>
                   <bibl>Grabmann, "Der belgische Thomist", 432-433</bibl>
                   <bibl>Livesey, Science in the monastery, 189-192</bibl>
                </listBibl>
             </person>
-            
+
             <!--  Iohannes Coromines (Colomines, Cormines) issue#16 -->
-            
+
             <person xml:id="IohannesCoromines">
                <name xml:lang="lat">Iohannes Coromines</name>
                <name xml:lang="lat">Iohannes Colomines</name>
@@ -196,7 +218,8 @@
                   Arts in 1444; studied theology under Robertus Ciboule and obtained his licentiate
                   in 1458. He served as procurator of the French Nation from August 1447.</note>
                <faith type="unknown"/>
-               <occupation role="students" ref="#Oxford_BodleianLibrary_Canon.Misc.211"><note type="role">Student for whom Johannes Run copied the texts</note></occupation>
+               <occupation role="students" ref="#Oxford_BodleianLibrary_Canon.Misc.211"><note
+                     type="role">Student for whom Johannes Run copied the texts</note></occupation>
                <listBibl>
                   <bibl>Auctarium V, col. 42, l. 38; col. 47, l. 23; col. 113, l. 22; col. 151, l.
                      4; col. 216, l. 45; col. 217, l. 5; col. 218, l. 17, l. 24, l. 40, l. 41; col.
@@ -211,9 +234,9 @@
                   <bibl>Sullivan, Parisian Licentiates II, 32, 140, 159, 172-173.</bibl>
                </listBibl>
             </person>
-            
+
             <!--  Iohannes Run issue#15 -->
-            
+
             <person xml:id="IohannesRun">
                <name xml:lang="lat">Iohannes Run</name>
                <birth notAfter="1444"/>
@@ -221,7 +244,9 @@
                <note>Originally from the diocesis of Tréguier (Trecorensis) in Bretagne, he licensed
                   and incepted at the Arts Faculty of the University of Paris in Mai 1444.</note>
                <faith type="unknown"/>
-               <occupation role="scr" ref="#Oxford_BodleianLibrary_Canon.Misc.211"><note type="role">in <ref target="#Oxford_BodleianLibrary_CanonMisc211" type="ms">ms. 211</ref> he wrote for Iohannes de Colomines</note></occupation>
+               <occupation role="scr" ref="#Oxford_BodleianLibrary_Canon.Misc.211"><note type="role"
+                  >in <ref target="#Oxford_BodleianLibrary_Canon.Misc.211" type="ms">ms. Canon.Misc.211</ref>
+                     he wrote for Iohannes de Colomines</note></occupation>
                <occupation role="scr" ref="#Oxford_BodleianLibrary_Canon.Misc.486"/>
                <listBibl>
                   <bibl>Auctarium V, col. 44, l. 15; col. 48, l. 30</bibl>
@@ -259,7 +284,7 @@
                      1250-1500, Leiden/Boston 2008, 35, 224, 267.</bibl>
                </listBibl>
             </person>
-            
+
             <person xml:id="IacobusBorkemanMariaeburgo">
                <name xml:lang="lat">Iacobus Borkeman de Mariaeburgo</name>
                <!-- Copernicus enrolled in 1491 -->
@@ -272,6 +297,27 @@
                <listBibl>
                   <bibl>Album studiosorum II, 41.</bibl>
                   <bibl>Liber prom. 139.</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="PhilippeGoupil">
+               <name xml:lang="fr">Philippe Goupil</name>
+               <birth notAfter="1442"/>
+               <death when="1503"/>
+               <note>Originally from Rouen (Rothomagentis dyocesis), he studied at the Faculty of
+                  Arts in Paris under the Norman master Clément Parmentier in the years 1442–1444.
+                  He was appointed abbot of Saint Eve in Toul in 1480 and died in 1503.</note>
+               <faith subtype="OSB" type="religious">Benedictine</faith>
+               <occupation role="scr"
+                  ref="#SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586"/>
+               <listBibl>
+                  <bibl>Monaci sancti Mauri ordinis sancti Benedicti, Gallia Christiana in
+                     provincias ecclesiasticas distributa, qua series et historia archiepiscoporum,
+                     episcoporum et abbatum regionum omnium quas vetus Gallia complecte et abbatum
+                     origine ecclesiarum ad nostra tempora deducitur et probatur ex authenticis
+                     instrumentis ad calcem appositis. Tomus decimus-tertius, ubi de provinciis
+                     Tolosana et Trevirensi agitur, Paris 1785, col. 1109</bibl>
+                  <bibl>Livesey, Science in the Monastery, 189-192</bibl>
                </listBibl>
             </person>
 
