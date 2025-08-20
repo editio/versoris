@@ -1549,7 +1549,7 @@
                      <colophon source="81ra" n="book V">Et hoc de questione, et per consequens de toto quinto
                         Phisicorum, peracto in vico Straminis sub venerabili viro, magistro Clemente
                         Parmentarii, venerabilis Normanne nationis, per me Philippum Goupil eiusdem
-                        nationis, dyocesis Rothomagensis, decima scripta die februarii, anno XLmo
+                        nationis, dyocesis Rothomagensis, decima scripta die februarii, anno XL<hi rend="superscript">mo</hi>
                         III° [sic pro IIII°]. P. Goupil <metamark function="signum"/></colophon>
                      <colophon source="93ra" n="book VI">Et hoc de questione, et per consequens de toto sexto
                         Phisicorum Aristotelis, perscripto in die sancti Thome de Aquino sub
@@ -1656,7 +1656,7 @@
                         codex.</p>
                   </origin>
                   <provenance>Two possession marks attest that the manuscript was owned by <persName
-                     ref="IacobusPol">Iacob Pol</persName>, a student in Paris and later a friar
+                     ref="#IacobusPol">Iacob Pol</persName>, a student in Paris and later a friar
                         at the Abbey of Saint-Bertin: <quote source="1v, marg. sup.">Ista philosophia pertinet fratri Jacobi Pol,
                         religioso ecclesiae sancti Bertini in Sancto Audomaro, Morinensis
                         diocesis</quote>;<quote source="2v, marg. sup.">Hunc librum acquisivit frater Jacobus Pol,

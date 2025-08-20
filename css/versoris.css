@@ -176,6 +176,12 @@ tei-note[type="editorial"] {
     display: none;
 }
 
+/* Hide editorial notes in PersonRegister. Not sure why the over rule does not work also for Personregister */
+
+#PersonRegister tei-note[type="editorial"] {
+    display: none;
+}
+
 tei-altIdentifier{
     display: none;
 }

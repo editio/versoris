@@ -196,7 +196,7 @@
                   Arts in 1444; studied theology under Robertus Ciboule and obtained his licentiate
                   in 1458. He served as procurator of the French Nation from August 1447.</note>
                <faith type="unknown"/>
-               <occupation role="dis" ref="#Oxford_BodleianLibrary_Canon.Misc.211"><note type="role">Student for whom Johannes Run copied the texts</note></occupation>
+               <occupation role="students" ref="#Oxford_BodleianLibrary_Canon.Misc.211"><note type="role">Student for whom Johannes Run copied the texts</note></occupation>
                <listBibl>
                   <bibl>Auctarium V, col. 42, l. 38; col. 47, l. 23; col. 113, l. 22; col. 151, l.
                      4; col. 216, l. 45; col. 217, l. 5; col. 218, l. 17, l. 24, l. 40, l. 41; col.
