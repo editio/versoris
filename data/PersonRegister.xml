@@ -28,6 +28,33 @@
       <body>
          <listPerson>
 
+            <!-- Clemens Parmentarii (Clémens Parmentier) issue#19  -->
+
+            <person xml:id="ClemensParmentarii">
+               <name xml:lang="lat">Clemens Parmentarii</name>
+               <name xml:lang="fra">Clémens Parmentier</name>
+               <birth notAfter="1440"/>
+               <death notBefore="1466"/>
+               <note>Clémens Parmentier, a member of the Norman nation, taught at the Faculty of
+                  Arts in Paris from the 1440s onward and was appointed rector of the University in
+                  October 1451. He studied theology under the direction of Petrus Richeri and
+                  obtained his license in 1460. In April 1466, he competed for the position of
+                  lector Ethicorum alongside Guillelmus de Curis and Guillelmus Vimon, the latter of
+                  whom ultimately received the appointment.</note>
+               <faith type="unknown"/>
+               <occupation role="tch"
+                  ref="#SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586"/>
+               <occupation role="tch" ref="#Oxford_BodleianLibrary_Canon.Misc.211"/>
+               <note type="role"
+                  >Master to which the commentaries are ascribed</note>
+               <listBibl>
+                  <bibl>Auctarium II, col. 797, l. 24-25; III, 3, l. 4-5; V, col. 31, l. 9-11, 14;
+                     456, l. 1-2, col. 461, l. 35-36; VI, 212, l. 20</bibl>
+                  <bibl>Kałuza, "Cours communs", 174</bibl>
+                  <bibl>Sullivan, Parisian Licentiates, II 32, 410</bibl>
+               </listBibl>
+            </person>
+
 
             <person xml:id="CruxDeTelcz">
                <!-- readable identifiers, names. If we found a better way to integrate the registers in the editing of the mss, the ids can be changed to numbers (001, 002, 003). -->
@@ -59,8 +86,38 @@
                </listBibl>
             </person>
 
-            <!--  Galcerandus Benedicti (or Garcerandus Benedicti) issue#7 -->
+
+            <!--  Folpardus de Ameronghen (Fohardus Hameronge) issue#22 -->
             
+            <person xml:id="FolpardusDeAmeronghen">
+               <name xml:lang="lat">Folpardus de Ameronghen</name>
+               <name xml:lang="lat">Fohardus Hameronge</name>
+               <birth notAfter="1448"/>
+               <death notBefore="1459"/>
+               <note>Native from the diocese of Utrecht. As a member of the German nation at the
+                  University of Paris, he obtained the degree of bachelor of Arts in 1448 and the
+                  degree of master of Arts in 1449. He later obtained a degree in civil law. He was
+                  and procurator of the German Nation in 1451. By 1459, we find him as of the bishop
+                  David de Bourgogne                  
+               </note>
+               <note type="attribution"><ref target="biblID" type="bibl"
+                  >Weijers</ref> (and <ref target="biblID" type="bibl"
+                     >Lohr</ref>?) ascribe to him the commentaries on the logical corpus</note>
+               <faith type="unknown"/>
+               <occupation role="tch"/>
+               <note type="role">Master supervising the copy of the commentaries</note>
+               <listBibl>
+                  <bibl>Auctarium II, col. 712, l. 43; col. 763, l. 10; col. 764, l. 22; col.
+                     859-862; Auctarium VI, col. 154, l. 30, n. 14; col. 177, l. 28; col. 179, l. 7;
+                     col. 198, l. 6, n. 2; col. 208, l. 47, n. 2; col. 209, l. 32; col. 210, l. 2;
+                     col. 211, n. 1, n. 3; col. 214, l. 32; col. 215, l. 3</bibl>
+                  <bibl>Weijers, Le travail intellectuel à la faculté des arts de Paris. Textes et
+                     maîtres (ca. 1200–1500), II, Turnhout. 1996, p. 90–91.</bibl>
+               </listBibl>
+            </person>
+
+            <!--  Galcerandus Benedicti (or Garcerandus Benedicti) issue#7 -->
+
             <person xml:id="GalcerandusBenedicti">
                <name xml:lang="lat">Galcerandus Benedicti</name>
                <name xml:lang="lat">Garcerandus Benedicti</name>
@@ -141,6 +198,32 @@
                </listBibl>
             </person>
 
+            <!-- Gilbertus d’Auvergnat (Alvergnat, Alverniaci, Auvergnaci, Auverniaci) issue#18 -->
+
+            <person xml:id="GilbertusdAuvergnat">
+               <name xml:lang="lat">Gilbertus d'Auvergnat</name>
+               <name xml:lang="lat">Gilbertus Alvergnat</name>
+               <name xml:lang="lat">Gilbertus Alverniaci</name>
+               <name xml:lang="lat">Gilbertus Auvergnaci</name>
+               <name xml:lang="lat">Gilbertus Auverniaci</name>
+               <birth notAfter="1477"/>
+               <death notBefore="1456"/>
+               <note>From the diocese of Bourges (diocesis Bituricensis), bachelor in 1477, licensed
+                  in 1448 under the master Petrus Caroz. After some years of absence, he was elected
+                  procurator of the French nation from 1454 to 1456.</note>
+               <faith type="unknown"/>
+               <occupation role="scr" ref="#Oxford_BodleianLibrary_Canon.Misc.211"/>
+               <listBibl>
+                  <bibl>Auctarium, V, col. 197, l. 11; col. 254, l. 22; col. 255, l. 22; col. 262,
+                     l. 31; col. 617, l. 18, l. 40; col. 618, l. 5, l. 24, l. 35; col. 619, l. 4, l.
+                     12, l. 31, l. 34, l. 35; col. 620, l. 16, l. 22; col. 621, l. 32; col. 624, l.
+                     33; col. 625, l. 5; col. 629, l. 24, l. 36, l. 39; col. 630, l. 14; col. 631,
+                     l. 25, l. 39, l. 42, l. 47; col. 633, l. 20, l. 36; col. 634, l. 15, l. 18, l.
+                     28, l. 29, l. 31, l. 33-36; col. 634, l. 15, l. 18, l. 28-31; col. 636, l. 8,
+                     l. 14; col. 638, l. 12, l. 29-36, l. 44; col. 717, l. 35</bibl>
+                  <bibl>Rouse &amp; Rouse, Illiterati et uxorati, 34</bibl>
+               </listBibl>
+            </person>
 
             <person xml:id="IacobusLouber">
                <idno type="VIAF">44463016</idno>
@@ -218,8 +301,9 @@
                   Arts in 1444; studied theology under Robertus Ciboule and obtained his licentiate
                   in 1458. He served as procurator of the French Nation from August 1447.</note>
                <faith type="unknown"/>
-               <occupation role="students" ref="#Oxford_BodleianLibrary_Canon.Misc.211"><note
-                     type="role">Student for whom Johannes Run copied the texts</note></occupation>
+               <occupation role="students" ref="#Oxford_BodleianLibrary_Canon.Misc.211"/>
+               <note
+                  type="role">Student for whom Johannes Run copied the texts</note>
                <listBibl>
                   <bibl>Auctarium V, col. 42, l. 38; col. 47, l. 23; col. 113, l. 22; col. 151, l.
                      4; col. 216, l. 45; col. 217, l. 5; col. 218, l. 17, l. 24, l. 40, l. 41; col.
@@ -244,10 +328,11 @@
                <note>Originally from the diocesis of Tréguier (Trecorensis) in Bretagne, he licensed
                   and incepted at the Arts Faculty of the University of Paris in Mai 1444.</note>
                <faith type="unknown"/>
-               <occupation role="scr" ref="#Oxford_BodleianLibrary_Canon.Misc.211"><note type="role"
-                  >in <ref target="#Oxford_BodleianLibrary_Canon.Misc.211" type="ms">ms. Canon.Misc.211</ref>
-                     he wrote for Iohannes de Colomines</note></occupation>
+               <occupation role="scr" ref="#Oxford_BodleianLibrary_Canon.Misc.211"/>
                <occupation role="scr" ref="#Oxford_BodleianLibrary_Canon.Misc.486"/>
+               <note type="role"
+                  >in <ref target="#Oxford_BodleianLibrary_Canon.Misc.211" type="ms">ms.
+                     Canon.Misc.211</ref> he wrote for Iohannes de Colomines</note>
                <listBibl>
                   <bibl>Auctarium V, col. 44, l. 15; col. 48, l. 30</bibl>
                   <bibl>Deuffic, "Copistes Bretons", 181, 182</bibl>
