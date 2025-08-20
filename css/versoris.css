@@ -172,7 +172,7 @@ tei-note[type="biblio"]::before {
     font-weight: bold;
 }
 
-#PersonRegister tei-note[type="editorial"] {
+tei-note[type="editorial"] {
     display: none;
 }
 
@@ -605,4 +605,9 @@ tei-colophon[n]::after {
 
         tei-metamark[function="signum"]::before {
             content: "(signum)"
+        }
+
+        tei-hi[rend="superscript"] {
+          vertical-align: super;
+          font-size: smaller;
         }
