@@ -100,7 +100,8 @@
 			'ann': 'Annotator',
 			'aut': 'Author',
             'tch': 'Master', // actully "teacher" in the relator vocabulary,
-            'students': 'Student' // LC relator vocabulary does not have a specific term for students, so we use LC Subject Headings
+            'sh85129296': 'Student', // LC relator vocabulary does not have a specific term for students, so we use LC Subject Headings
+            'sh87002712': 'School principal' // LC relator vocabulary does not have a specific term for students, so we use LC Subject Headings
 
 		};
 	  
@@ -128,9 +129,9 @@
 					} else if (notBefore && notAfter) {
 						container.textContent = `${notBefore}-${notAfter}`;
 					} else if (notBefore) {
-						container.textContent = `after ${notBefore}`;
+						container.textContent = `not Before ${notBefore}`;
 					} else if (notAfter) {
-						container.textContent = `before ${notAfter}`;
+						container.textContent = `not After ${notAfter}`;
 					}
 					
 					return container;
@@ -148,9 +149,9 @@
 					} else if (notBefore && notAfter) {
 						container.textContent = `${notBefore}-${notAfter}`;
 					} else if (notBefore) {
-						container.textContent = `after ${notBefore}`;
+						container.textContent = `not Before ${notBefore}`;
 					} else if (notAfter) {
-						container.textContent = `before ${notAfter}`;
+						container.textContent = `not After ${notAfter}`;
 					}
 					
 					return container;

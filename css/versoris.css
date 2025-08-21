@@ -422,7 +422,7 @@ tei-colophon[n]::after {
 			font-weight: bold;
 		}
 
-		tei-faith {
+		tei-affiliation {
 			display: inline-block;
 			background-color: #17a2b8;
 			color: white;
@@ -432,15 +432,15 @@ tei-colophon[n]::after {
 			margin: 5px 0;
 		}
 
-		tei-faith[type="secular"] {
+		tei-affiliation[type="secular"] {
 			background-color: #FF8C00;
 		}
 
-        	tei-faith[type="unknown"] {
+        	tei-affiliation[type="none"] {
 			display: none;
 		}
 
-		tei-faith[type="secular"]::before {
+		tei-affiliation[type="secular"]::before {
 			content: "secular";
 		}
 
