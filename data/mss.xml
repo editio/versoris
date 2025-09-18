@@ -262,7 +262,7 @@
             </msDesc>
 
             <!-- Augsburg, Universitätsbibliothek Augsburg, Cod. II.1.2º 220 issue#32-->
-            <msDesc xml:id="Augsburg_UniversitätsbibliothekAugsburg_CodII12220">
+            <msDesc xml:id="Augsburg_UniversitätsbibliothekAugsburg_Cod.II.1.2220">
                <msIdentifier>
                   <settlement>Augsburg</settlement>
                   <repository>Universitätsbibliothek Augsburg</repository>
@@ -270,13 +270,13 @@
                </msIdentifier>
                <msContents>
                   <summary>None</summary>
-                  <msItem xml:id="Augsburg_UniversitätsbibliothekAugsburg_CodII12220_QsE">
+                  <msItem xml:id="Augsburg_UniversitätsbibliothekAugsburg_Cod.II.1.2220_QsE">
                      <locus from="2r" to="78v"/>
                      <title ref="workID">QsE (I–X)</title>
                      <colophon source=" 14r" n="book I">Expliciunt questiones super primo Ethicorum,
                         1471</colophon>
                   </msItem>
-                  <msItem xml:id="Augsburg_UniversitätsbibliothekAugsburg_CodII12220_definitions">                     
+                  <msItem xml:id="Augsburg_UniversitätsbibliothekAugsburg_Cod.II.1.2220_definitions">                     
                      <locus from="78v" to="84r"/>
                      <title ref="ID">(Definitions, schemata, and list of questions)</title>
                   </msItem>
@@ -1327,7 +1327,7 @@
                      <origDate from="1463" to="1463"/>
                      <p>The colophon of the second set of questions on the Ethics informs us that it
                         was copied by Claudius Vernet under the supervision of <persName
-                           ref="#GaltherusdeWalma">Galtherus de Walma</persName>, regent master at
+                           ref="#GaltherusDeWalma">Galtherus de Walma</persName>, regent master at
                         the Collège de Bourgogne: <quote source="215v">Et sic est finis sexti
                            Ethicorum, finiti per me, Claudium Verneti, dyocesis Bisuntiensis,
                            studentem sub venerabili viro, magistro Galthero de Walma, actu Parisius
@@ -1443,7 +1443,7 @@
             </msDesc>
 
             <!-- Reims, Bibliothèque Carnegie (Bibliothèque municipale), 897 (I. 678) issue#33-->
-            <msDesc xml:id="Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I.678">
+            <msDesc xml:id="Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I.678">               
                <msIdentifier>
                   <settlement>Reims</settlement>
                   <repository>Bibliothèque Carnegie (Bibliothèque municipale)</repository>
@@ -1925,7 +1925,7 @@
             </msDesc>
 
             <!-- Saint Omer, Bibliothèque d'Agglomération du Pays de Saint-Omer (Bibliothèque municipale), 597 -->
-            <msDesc xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_597">
+            <msDesc xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597">
                <msIdentifier>
                   <settlement>Saint Omer</settlement>
                   <repository>Bibliothèque d'Agglomération du Pays de Saint-Omer (Bibliothèque
@@ -1936,7 +1936,7 @@
                </msIdentifier>
                <msContents>
                   <summary/>
-                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_597_QsP">
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597_QsP">
                      <locus from="1r" to="56vb"/>
                      <title ref="workID">QsP</title>
                      <note type="content">Most of the QsP – particularly up to book III – display
@@ -1948,14 +1948,14 @@
                         and the simplification of their structure, often limited to the enunciation
                         of the main conclusion.</note>
                   </msItem>
-                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_597_QdC">
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597_QdC">
                      <locus from="57va" to="64rb"/>
                      <title ref="workID">QdC</title>
                      <note type="content">In the QdC the replies to the questions (including the
                         notabilia, the conclusiones and the dubitationes) are missing. The arguments
                         pro and contra are followed by the replies to the arguments.</note>
                   </msItem>
-                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_597_QdG">
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597_QdG">
                      <locus from="65ra" to="72vb"/>
                      <title ref="workID">QdG</title>
                      <note type="content">The QdG represent a kind of a draft or repertoires of
@@ -1965,7 +1965,7 @@
                         is the only one whose text is complete: it corresponds to the analogue
                         question ascribed to Versoris.</note>
                   </msItem>
-                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_597_QsMete">
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597_QsMete">
                      <locus from="73ra" to="79vb"/>
                      <title ref="workID">QsMete</title>
                      <note type="content">Only sporadically elements of the answer (notabilia) can
@@ -1975,7 +1975,7 @@
                         usually correspond to the ones found in the commentary ascribed to
                         Versoris.</note>
                   </msItem>
-                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_597_QdA">
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597_QdA">
                      <locus from="79va" to="109va"/>
                      <title ref="workID">QdA</title>
                      <note type="content">Most of the QdA are longer, as they usually (but not
@@ -1995,19 +1995,19 @@
                         as a consequence, is much longer than in the commentary ascribed to
                         Versoris.</note>
                   </msItem>
-                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_597_QsSen">
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597_QsSen">
                      <locus from="110ra" to="112rb"/>
                      <title ref="workID">QsSen</title>
                   </msItem>
-                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_597_QsMem">
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597_QsMem">
                      <locus from="112va" to="112vb"/>
                      <title ref="workID">QsMem</title>
                   </msItem>
-                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_597_QsSom">
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597_QsSom">
                      <locus from="113ra" to="114rb"/>
                      <title ref="workID">QsSom</title>
                   </msItem>
-                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_597_QsLon">
+                  <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597_QsLon">
                      <locus from="114ra" to="115ra"/>
                      <title ref="workID">QsLon</title>
                   </msItem>
