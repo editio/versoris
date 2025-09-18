@@ -102,6 +102,27 @@
             </person>
 
 
+            <!-- Ambrosius Allantsee issue#32-->
+            <person xml:id="AmbrosiusAllantsee">
+               <idno type="GND">11960289X</idno>
+               <idno type="VIAF">72206754</idno>
+               <idno type="CERL">cnp01120126</idno>
+               <name xml:lang="lat">Ambrosius Allantsee</name>               
+               <death when="1505"/>
+               <note>He studied at Basel University. He entered the Clunian monastery of St. Alban and
+                  later the chartustians in Christgarten, Nördlingen and Kleinbasel. Prior of St.
+                  Mang in Füssen. He brought the manuscripts he had copied at Basel University in
+                  Füssen (II.lat.1. folio.8, II.lat.1.folio.93, II.lat.1.folio.94,
+                  II.lat.1.folio.103, II.lat.1.folio.128, II.lat.1. quarto.33). He died in
+                  1505.</note>
+               <affiliation subtype="OCart" type="religiousOrder">Carthusian</affiliation>
+               <occupation role="fmo" ref="#Augsburg_UniversitätsbibliothekAugsburg_Cod.II.1.2220"/>               
+               <listBibl>
+                  <bibl>Scarpatetti, Datierte I, 252</bibl>
+                  <bibl>Hilg, Lateinische mittelalterliche Handschriften, 13-14</bibl>
+               </listBibl>
+            </person>
+
             <!-- Clemens Parmentarii (Clémens Parmentier) issue#19  -->
 
             <person xml:id="ClemensParmentarii">
@@ -207,6 +228,64 @@
                   <bibl>Sullivan, Parisian Licentiates, II, 410.</bibl>
                </listBibl>
             </person>
+            
+            <!-- Galtherus de Walma issue#13-->
+            <person xml:id="GaltherusDeWalma">
+               <name xml:lang="lat">Galtherus de Walma</name>
+               <name xml:lang="lat">Galtherus de Wervia</name>
+               <name xml:lang="lat">Galtherus de Warnia</name>
+               <name xml:lang="lat">Galtherus de Varnia</name>
+               <name xml:lang="lat">Galtherus de Vernia</name>
+               <name xml:lang="lat">Galtherus de Werfia</name>
+               <name xml:lang="lat">Galtherus de Veruia</name>
+               <birth notAfter="1442"/>
+               <death notBefore="1480"/>
+               <note><p>The colophon of manuscript Paris, BnF, latin 6691 informs us that Galtherus
+                  de Walma was a regent master at the Collège de Bourgogne in 1463. According to
+                  Paul Bakker, it is probable that this master should be identified with
+                  Galtherus de Wervia (also spelled Warnia, Varnia, Vernia, Werfia, Veruia), the
+                  author of a commentary on the Isagoge and another on De anima. Bakker argues
+                  this identification is plausible due to the various attested spellings of the
+                  name and because Galtherus de Wervia was also active at the Collège de
+                  Bourgogne during the same period, as evidenced by the colophons of the Isagoge
+                  and De anima commentaries.</p>
+                  <p>If this identification is correct, Bakker further argues, then Galtherus de
+                     Wervia would also be the author of the commentary on the Ethics transmitted in
+                     the Parisian manuscript. While I agree that the identification of Galtherus de
+                     Walma with Galtherus de Wervia is plausible, I find Bakker's conclusions
+                     regarding the Ethics commentary problematic. First of all, Bakker does not
+                     distinguish between the two commentaries transmitted in the Parisian manuscript
+                     (the first one covering ff. 2ra–151vb; the second one, ff. 152ra–215v),
+                     treating them as if they constituted a single work covering ff. 1r–215v. In
+                     reality, these two commentaries – both addressing Books I–IV of the Nicomachean
+                     Ethics – have distinct incipits and explicits, as well as different sets of
+                     questions. Only the first commentary is anonymous, while the second is
+                     explicitly ascribed to Versoris by the scribe. Galtherus de Walma is mentioned
+                     only in the colophon of the second commentary, not the first. In this colophon,
+                     he is identified as the master under whose supervision the text was copied (sub
+                     magistro), which merely indicates that Galtherus de Walma used this commentary
+                     in his teaching. It does not, in any way, prove that he authored it.</p>
+                  <p>Galtherus de Wervia – who, if Bakker's hypothesis holds, is to be identified
+                     with Galtherus de Walma – originated from the diocese of Utrecht. He began his
+                     university studies in 1442 at the University of Cologne. By 1445, he had moved
+                     to the University of Paris, where he is recorded as a baccalareus artium
+                     affiliated with the German nation. That same year, he incepted under the master
+                     Albertus Scriptoris, also from the diocese of Utrecht. In 1457, he enrolled in
+                     theological studies. His name appears for the last time in Parisian records in
+                     1472. During this period, he likely licensed in theology, as he is listed in
+                     the records of the University of Heidelberg in 1475 as having received his
+                     license in theology from Paris. After his time in Heidelberg, he moved to
+                     Tübingen, where he earned the title of Doctor of Theology in 1480.</p></note>               
+               <occupation role="tch" ref="#Paris_BnF_latin6691"/>
+               <note type="role">Master supervising the copy</note>
+               <listBibl>
+                  <bibl>Weijers, Le travail intellectuel, vol. 3, p. 63–64</bibl>
+                  <bibl>Lohr I, 163</bibl>
+                  <bibl>P.J.J.M. Bakker, F.J. Kok, Secundum intentionem Doctoris Subtilis: The
+                     Commentaries on Porphyry's Isagoge and Aristotle's De anima by Walter of Wervia
+                     (ca. 1425–1497), Bulletin de Philosophie Médiévale 56 (2014), 263-279</bibl>
+               </listBibl>
+            </person>
 
             <person xml:id="GeorgSchwarz">
                <!-- ELE: missing identifier. Create GND and Wikidata. JL: Check CERL! bc its there -->
@@ -239,6 +318,33 @@
                </listBibl>
             </person>
 
+
+            <!-- Georgius de Brabantia OSB (1448–1505) issue#10-->
+            <person xml:id="GeorgiusDeBrabantia">
+               <name xml:lang="lat">Georgius de Brabantia</name>
+               <birth when="1448"/>
+               <death when="1505"/>
+               <note>Born in 1448 in Bourbourg, he was tonsured in 1456 under Bishop Henri de
+                  Lorraine-Vaudémont. He became a monk at the Abbey of Saint-Bertin and, from 1493
+                  onwards, served there as archivist and prior. He studied at the Faculty of Arts in
+                  Paris in 1471, as attested by his colophon in manuscript Saint-Omer, 597. Likely
+                  during the same period, he copied another manuscript now preserved in the same
+                  library (Saint-Omer, MS 600), which also belonged to the Abbey of Saint-Bertin.
+                  This manuscript contains anonymous commentaries on the logical corpus —distinct
+                  from those attributed to Versoris— and features the same kind of rich decoration
+                  found in MS 597.</note>
+               <affiliation subtype="OSB" type="religiousOrder">Benedictine</affiliation>
+               <occupation role="scr fmo"
+                  ref="#SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_MS597"/>               
+               <listBibl>
+                  <bibl>Gil, Saint-Omer gothique, 379</bibl>
+                  <bibl>T. Sullivan, Benedictine Monks at the University of Paris: A.D. 1229–1500: A
+                     Biographical Register, Leiden, 1995, 77, no. 114</bibl>
+                  <bibl>Livesey, Science in the Monastery, 210–212 (MS 597); 216–218 (MS 600)</bibl>
+               </listBibl>
+            </person>
+            
+            
             <!-- Georgius Erber de Aibling issue#24 -->
 
             <person xml:id="GeorgiusErberDeAibling">
@@ -357,6 +463,30 @@
                   <bibl>Livesey, Science in the monastery, 189-192</bibl>
                </listBibl>
             </person>
+
+            <!-- Iohannes Abbatis (Jean l'Abbé) issue#33 -->
+            <person xml:id="IohannesAbbatis">
+               <name xml:lang="lat">Iohannes Abbatis</name>
+               <name xml:lang="fr">Jean l'Abbé</name>
+               <birth notAfter="1450"/>
+               <death notBefore="1453"/>
+               <note>From the diocese of Reims, he studied at the Faculty of Arts in Paris as a
+                  member of the French Nation. Between 1450 and 1452, he studied at the Collège de
+                  la Marche, as attested by manuscript Reims, Bibliothèque Carnegie (Bibliothèque
+                  municipale), 897 (I. 678). He was promoted baccalarius in 1452, and master in
+                  1453. He later served as provost of the chapter of Reims Cathedral and as general
+                  vicar of the Archbishop of Reims. He owned other manuscripts now kept in Reims:
+                  58, 562, 97, 705.</note>
+               <affiliation type="none"/>
+               <occupation role="scr"
+                  ref="#Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I.678"/>               
+               <listBibl>
+                  <bibl>Auctarium V, col. 478, l. 17; col. 526, l. 23; col. 529, l. 3</bibl>
+                  <bibl>Riou, "Alfarabi, Aristote, Platon" <note type="biblio">who considers
+                     Iohannes Abbatis as the author of the commentaries</note></bibl>
+               </listBibl>
+            </person>
+
 
             <!--  Iohannes Coromines (Colomines, Cormines) issue#16 -->
 
