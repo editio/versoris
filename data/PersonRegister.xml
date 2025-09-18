@@ -116,7 +116,7 @@
                   II.lat.1.folio.103, II.lat.1.folio.128, II.lat.1. quarto.33). He died in
                   1505.</note>
                <affiliation subtype="OCart" type="religiousOrder">Carthusian</affiliation>
-               <occupation role="fmo" ref="#Augsburg_UniversitätsbibliothekAugsburg_Cod.II.1.2220"/>               
+               <occupation role="fmo" ref="#Augsburg_UniversitätsbibliothekAugsburg_CodII12220"/>               
                <listBibl>
                   <bibl>Scarpatetti, Datierte I, 252</bibl>
                   <bibl>Hilg, Lateinische mittelalterliche Handschriften, 13-14</bibl>
@@ -138,7 +138,7 @@
                   whom ultimately received the appointment.</note>
                <occupation role="tch"
                   ref="#SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586"/>
-               <occupation role="tch" ref="#Oxford_BodleianLibrary_Canon.Misc.211"/>
+               <occupation role="tch" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
                <note type="role">Master to which the commentaries are ascribed</note>
                <listBibl>
                   <bibl>Auctarium II, col. 797, l. 24-25; III, 3, l. 4-5; V, col. 31, l. 9-11, 14;
@@ -172,7 +172,7 @@
                <!-- Religious order: aggiungere nel XSLT -->
                <!-- type: religious, secular -->
                <occupation role="scr fmo" ref="#Praha-NK-I-E-38"/>
-               <occupation role="scr fmo" ref="#I F 25"/>
+               <occupation role="scr fmo" ref="#IF25"/>
                <listBibl>
                   <bibl>dsa</bibl>
                   <!-- empty with link -->
@@ -220,7 +220,7 @@
                   the French Nation. He studied under Clémens Parmentier, obtained his bachelor
                   degree in 1447 and licensed in 1448 under the master Petrus Caroz. His activity at
                   the Arts Faculty is attested until 1450.</note>
-               <occupation role="scr" ref="#Oxford_BodleianLibrary_Canon.Misc.211"/>
+               <occupation role="scr" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
                <listBibl>
                   <bibl>Auctarium V, col. 196, l. 3; col. 254, l. 18-19; col. 255, l. 16; col. 262,
                      l. 30; col. 277, l. 38; 293, l. 13; col. 332, l. 34; col. 373, l. 37</bibl>
@@ -276,7 +276,7 @@
                      the records of the University of Heidelberg in 1475 as having received his
                      license in theology from Paris. After his time in Heidelberg, he moved to
                      Tübingen, where he earned the title of Doctor of Theology in 1480.</p></note>               
-               <occupation role="tch" ref="#Paris_BnF_latin6691"/>
+               <occupation role="tch" ref="#Paris_BnF_latin6691"/>               
                <note type="role">Master supervising the copy</note>
                <listBibl>
                   <bibl>Weijers, Le travail intellectuel, vol. 3, p. 63–64</bibl>
@@ -358,8 +358,8 @@
                   natural philosophy and the other on logic – which he brought with him when,
                   shortly after completing his studies, he moved to Coburg</note>
                <affiliation type="none"/>
-               <occupation role="fmo" ref="#Berlin_SB-PK_lat.fol.402"/>
-               <occupation role="fmo" ref="#Berlin_SB-PK_Hdschr.435"/>
+               <occupation role="fmo" ref="#Berlin_SB-PK_latfol402"/>
+               <occupation role="fmo" ref="#Berlin_SB-PK_Hdschr435"/>
                <listBibl>
                   <bibl>Auctarium II, col. 948, l. 19; VI, col. 360, l. 24; col. 375, l. 5; col.
                      377, l. 2</bibl>
@@ -389,7 +389,7 @@
                <note>From the diocese of Bourges (diocesis Bituricensis), bachelor in 1477, licensed
                   in 1448 under the master Petrus Caroz. After some years of absence, he was elected
                   procurator of the French nation from 1454 to 1456.</note>
-               <occupation role="scr" ref="#Oxford_BodleianLibrary_Canon.Misc.211"/>
+               <occupation role="scr" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
                <listBibl>
                   <bibl>Auctarium, V, col. 197, l. 11; col. 254, l. 22; col. 255, l. 22; col. 262,
                      l. 31; col. 617, l. 18, l. 40; col. 618, l. 5, l. 24, l. 35; col. 619, l. 4, l.
@@ -479,7 +479,7 @@
                   58, 562, 97, 705.</note>
                <affiliation type="none"/>
                <occupation role="scr"
-                  ref="#Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I.678"/>               
+                  ref="#Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I678"/>               
                <listBibl>
                   <bibl>Auctarium V, col. 478, l. 17; col. 526, l. 23; col. 529, l. 3</bibl>
                   <bibl>Riou, "Alfarabi, Aristote, Platon" <note type="biblio">who considers
@@ -501,7 +501,7 @@
                   Arts in 1444; studied theology under Robertus Ciboule and obtained his licentiate
                   in 1458. He served as procurator of the French Nation from August 1447.</note>
                <affiliation type="none"/>
-               <occupation role="sh85129296" ref="#Oxford_BodleianLibrary_Canon.Misc.211"/>
+               <occupation role="sh85129296" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
                <note type="role">Student for whom Johannes Run copied the texts</note>
                <listBibl>
                   <bibl>Auctarium V, col. 42, l. 38; col. 47, l. 23; col. 113, l. 22; col. 151, l.
@@ -526,8 +526,8 @@
                <death notBefore="1444"/>
                <note>Originally from the diocesis of Tréguier (Trecorensis) in Bretagne, he licensed
                   and incepted at the Arts Faculty of the University of Paris in Mai 1444.</note>
-               <occupation role="scr" ref="#Oxford_BodleianLibrary_Canon.Misc.211"/>
-               <occupation role="scr" ref="#Oxford_BodleianLibrary_Canon.Misc.486"/>
+               <occupation role="scr" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
+               <occupation role="scr" ref="#Oxford_BodleianLibrary_CanonMisc486"/>
                <note type="role">in <ref target="#Oxford_BodleianLibrary_Canon.Misc.211" type="ms"
                      >ms. Canon.Misc.211</ref> he wrote for Iohannes de Colomines</note>
                <listBibl>
@@ -546,7 +546,7 @@
                <note>Active in Ulm, probably at the Dominican convent, in the third quarter of the
                   fifteenth century.</note>
                <affiliation subtype="OP" type="religiousOrder">Dominican</affiliation>
-               <occupation role="scr" ref="#Bamberg_StaatsbibliothekBamberg_Msc.Patr.150"/>
+               <occupation role="scr" ref="#Bamberg_StaatsbibliothekBamberg_MscPatr150"/>
                <listBibl>
                   <!-- mandatory -->
                   <bibl>Leitschuh, I.1, 532-533.</bibl>
@@ -601,7 +601,7 @@
                <note>After studying in Ingolstadt, he entered the Benedictine monastery of Saint
                   Emmeram.</note>
                <affiliation subtype="OSB" type="religiousOrder">Benedictine</affiliation>
-               <occupation role="scr fmo" ref="#München_BSB_Clm_14518"/>
+               <occupation role="scr fmo" ref="#München_BSB_Clm14518"/>
                <listBibl>
                   <bibl>D. Sheffler, Schools and Schooling in Late Medieval Germany: Regensburg,
                      1250-1500, Leiden/Boston 2008, 35, 224, 267.</bibl>
@@ -666,7 +666,7 @@
                <occupation role="scr" ref="#Praha_KMK_M402"/>
                <occupation role="tch" ref="#Praha_KMK_M81"/>
                <occupation role="scr" ref="#Praha_NK_XH21"/>
-               <occupation role="tch" ref="#Wien_Dominikanerkonvent_Cod.149119"/>
+               <occupation role="tch" ref="#Wien_Dominikanerkonvent_Cod149119"/>
                <note type="biblio">Mentioned in mss. Praha, KMK, M 40/2 and Praha, NK, X H 21 as the
                   copyist who brought Versoris’s logical corpus from Paris to Prague; mentioned in
                   ms. Wien, Dominikanerkonvent, Cod. 149/119 as the master under whom the copyist
@@ -702,7 +702,7 @@
                <occupation role="scr" ref="#Praha_NK_IVE25"/>
                <occupation role="scr" ref="#Praha_KMK_L37"/>
                <occupation role="scr" ref="#Praha_NK_IE38"/>
-               <occupation role="scr" ref="#Wien_Dominikanerkonvent_Cod.149119"/>
+               <occupation role="scr" ref="#Wien_Dominikanerkonvent_Cod149119"/>
                <note type="role">Copyist in ms. Praha, NK, IV E 25; mentioned in mss. Praha, KMK, L
                   37 and Praha, NK, I E 38 as the copyist of the natural philosophical corpus;
                   mentioned in ms. Wien, Dominikanerkonvent, Cod. 149/119 as the copyist of the

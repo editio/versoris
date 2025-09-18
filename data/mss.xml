@@ -262,7 +262,7 @@
             </msDesc>
 
             <!-- Augsburg, Universitätsbibliothek Augsburg, Cod. II.1.2º 220 issue#32-->
-            <msDesc xml:id="Augsburg_UniversitätsbibliothekAugsburg_Cod.II.1.2220">
+            <msDesc xml:id="Augsburg_UniversitätsbibliothekAugsburg_CodII12220">               
                <msIdentifier>
                   <settlement>Augsburg</settlement>
                   <repository>Universitätsbibliothek Augsburg</repository>
@@ -270,13 +270,13 @@
                </msIdentifier>
                <msContents>
                   <summary>None</summary>
-                  <msItem xml:id="Augsburg_UniversitätsbibliothekAugsburg_Cod.II.1.2220_QsE">
+                  <msItem xml:id="Augsburg_UniversitätsbibliothekAugsburg_CodII12220_QsE">
                      <locus from="2r" to="78v"/>
                      <title ref="workID">QsE (I–X)</title>
                      <colophon source=" 14r" n="book I">Expliciunt questiones super primo Ethicorum,
                         1471</colophon>
                   </msItem>
-                  <msItem xml:id="Augsburg_UniversitätsbibliothekAugsburg_Cod.II.1.2220_definitions">                     
+                  <msItem xml:id="Augsburg_UniversitätsbibliothekAugsburg_CodII12220_definitions">                     
                      <locus from="78v" to="84r"/>
                      <title ref="ID">(Definitions, schemata, and list of questions)</title>
                   </msItem>
@@ -313,7 +313,7 @@
 
             <!--Bamberg, Staatsbibliothek Bamberg, class 58/4 (HJ.IC.29)* issue#3-->
 
-            <msDesc xml:id="Bamberg_StaatsbibliothekBamberg_class584HJ.IC.29">
+            <msDesc xml:id="Bamberg_StaatsbibliothekBamberg_class584HJIC29">
                <msIdentifier>
                   <settlement>Bamberg</settlement>
                   <repository>Staatsbibliothek Bamberg</repository>
@@ -321,7 +321,7 @@
                </msIdentifier>
                <msContents>
                   <summary>None</summary>
-                  <msItem xml:id="Bamberg_StaatsbibliothekBamberg_class584HJ.IC.29_QsE">
+                  <msItem xml:id="Bamberg_StaatsbibliothekBamberg_class584HJIC29_QsE">
                      <locus from="157" to="264v"/>
                      <title ref="WorK">QsE</title>
                      <note type="desc">The text ends unfinished at book IX, question <title
@@ -356,7 +356,7 @@
 
             <!--Bamberg, Staatsbibliothek Bamberg, Msc.Patr.150* issue#3-->
 
-            <msDesc xml:id="Bamberg_StaatsbibliothekBamberg_Msc.Patr.150">
+            <msDesc xml:id="Bamberg_StaatsbibliothekBamberg_MscPatr150">
                <msIdentifier>
                   <settlement>Bamberg</settlement>
                   <repository>Staatsbibliothek Bamberg</repository>
@@ -366,11 +366,11 @@
                </msIdentifier>
                <msContents>
                   <summary>The commentary is ascribed to Versoris in the first colophon</summary>
-                  <msItem xml:id="Bamberg_StaatsbibliothekBamberg_Msc.Patr.150_ThomasText">
+                  <msItem xml:id="Bamberg_StaatsbibliothekBamberg_MscPatr150_ThomasText">
                      <locus from="88v" to="106r"/>
                      <title ref="workID">Thomas's Text</title>
                   </msItem>
-                  <msItem xml:id="Bamberg_StaatsbibliothekBamberg_Msc.Patr.150_QsDente">
+                  <msItem xml:id="Bamberg_StaatsbibliothekBamberg_MscPatr150_QsDente">
                      <locus from="106r" to="124"/>
                      <title ref="workID">QsDente</title>
                      <note type="desc">The commentary is preceded by Thomas’s text (88v-106r). The
@@ -385,7 +385,7 @@
                      <colophon source="">Explicit scriptum Versoris super De ente et essentia sancti
                         Thome doctoris</colophon>
                   </msItem>
-                  <!--              <msItem xml:id="Bamberg_StaatsbibliothekBamberg_Msc.Patr.150_ThomasTextComment">
+                  <!--              <msItem xml:id="Bamberg_StaatsbibliothekBamberg_Msc_Patr_150_ThomasTextComment">
                      <locus from="137r" to="170r"/>
                      <title ref="workID">Thomas's Text Commentary</title>
                      <incipit>insignis perypatetice veritatis interpres Doctor sanctus nedum adultos
@@ -886,14 +886,14 @@
                   </msIdentifier>
                   <msContents>
                      <!-- Incunabulum 1: Versoris on Ars nova and De ente et essentia -->
-                     <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_Inc1">
+                     <msItem xml:id="Kraków_BJ_908_Inc1">
                         <locus from="1r" to="128r"/>
                         <title ref="ID">Questions on the Ars nova; De ente et essentia</title>
                         <author>Joannes Versoris</author>
                         <note>Printed in Cologne by Heinrich Quentell before 1489</note>
                      </msItem>
                      <!-- Incunabulum 2: Versoris on Ars vetus -->
-                     <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_Inc2">
+                     <msItem xml:id="Kraków_BJ_908_Inc2">
                         <locusGrp>
                            <locus from="129r" to="204r" scheme="#bound"/>
                            <locus from="1r" to="76r" scheme="#unbound"/>
@@ -918,7 +918,7 @@
                   <msContents>
                      <summary>None</summary>
                      <!-- Manuscript item: QsPor -->
-                     <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QsPor">
+                     <msItem xml:id="Kraków_BJ_908_QsPor">
                         <locusGrp>
                            <locus from="205r" to="216v" scheme="#bound"/>
                            <locus from="1r" to="12v" scheme="#unbound"/>
@@ -934,7 +934,7 @@
 
                      <!-- Manuscript item: Anonymous Questions on Isagoge -->
                      <msItem
-                        xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QsPorAnon">
+                        xml:id="Kraków_BJ_908_QsPorAnon">
                         <locusGrp>
                            <locus from="217r" to="308v" scheme="#bound"/>
                            <locus from="13r" to="104v" scheme="#unbound"/>
@@ -948,7 +948,7 @@
                      </msItem>
 
                      <!-- Manuscript item: Anonymous Questions on Predicamenta -->
-                     <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QsPred">
+                     <msItem xml:id="Kraków_BJ_908_QsPred">
                         <locusGrp>
                            <locus from="308v" to="367r" scheme="#bound"/>
                            <locus from="104v" to="163r" scheme="#unbound"/>
@@ -994,7 +994,7 @@
 
             <!-- Mainz, Wissenschaftliche Stadtbibliothek Mainz, Hs. I 541* issue#5-->
 
-            <msDesc xml:id="Mainz_WissenschaftlicheStadtbibliothekMainz_Hs.I-541">
+            <msDesc xml:id="Mainz_WissenschaftlicheStadtbibliothekMainz_HsI541">
                <msIdentifier>
                   <settlement>Mainz</settlement>
                   <repository>Wissenschaftliche Stadtbibliothek Mainz</repository>
@@ -1004,13 +1004,13 @@
                </msIdentifier>
                <msContents>
                   <summary>None</summary>
-                  <msItem xml:id="Mainz_WissenschaftlicheStadtbibliothekMainz_Hs.I-541_QdA">
+                  <msItem xml:id="Mainz_WissenschaftlicheStadtbibliothekMainz_HsI541_QdA">
                      <locus from="129r" to="178v"/>
                      <title ref="ID">QdA</title>
                      <note type="attribution">It seems not to have been copied by <persName ref="id"
                            >Marcellus Geist</persName>.</note>
                   </msItem>
-                  <msItem xml:id="Mainz_WissenschaftlicheStadtbibliothekMainz_Hs.I-541_QdC">
+                  <msItem xml:id="Mainz_WissenschaftlicheStadtbibliothekMainz_HsI541_QdC">
                      <locus from="179r" to="231v"/>
                      <title ref="ID">QdC</title>
                      <note type="attribution">It seems not to have been copied by <persName ref="id"
@@ -1057,7 +1057,7 @@
 
             <!--München, BSB, Clm 14518* issue#4-->
 
-            <msDesc xml:id="München_BSB_Clm_14518">
+            <msDesc xml:id="München_BSB_Clm14518">
                <!--Check how to create the string for xml:id. No documentation for now-->
                <msIdentifier>
                   <settlement>München</settlement>
@@ -1070,7 +1070,7 @@
                   <!--from Content -->
                   <summary>None</summary>
                   <!--attribution-->
-                  <msItem xml:id="München_BSB_Clm_14518_CsPH">
+                  <msItem xml:id="München_BSB_Clm14518_CsPH">
                      <!--Check how to create the string for xml:id. No documentation for now-->
                      <locus from="16r" to="274v"/>
                      <title ref="#self">CsPH</title>
@@ -1111,7 +1111,7 @@
 
             <!-- Nürnberg, Stadtbibliothek im Bildungscampus Nürnberg, Cent. V 47* issue#3-->
 
-            <msDesc xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_Cent.V47">
+            <msDesc xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47">
                <msIdentifier>
                   <settlement>Nürnberg</settlement>
                   <repository>Stadtbibliothek im Bildungscampus Nürnberg</repository>
@@ -1119,7 +1119,7 @@
                </msIdentifier>
                <msContents>
                   <summary>None</summary>
-                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_Cent.V47_QsMeta">
+                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47_QsMeta">
                      <locus from="86ra" to="155vb"/>
                      <title ref="workID">QsMeta</title>
                      <note type="desc">The <title ref="w_ID">QsMeta</title> are preceded by an
@@ -1134,7 +1134,7 @@
                         de Schweygern, anno Domini 1471, in die sancti Leonhardi
                         confessoris</colophon>
                      <msItem
-                        xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_Cent.V47_QsMeta_Intro">
+                        xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47_QsMeta_Intro">
                         <locus from="86ra" to="va"/>
                         <title ref="workID">QsMeta Intro</title>
                         <incipit>Girum celi circuitui sola Ecclesiastici 24. Doctrinalibus et
@@ -1143,7 +1143,7 @@
                      </msItem>
                   </msItem>
 
-                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_Cent.V47_QsP">
+                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47_QsP">
                      <locus from="158ra" to="262"/>
                      <title ref="workID">QsP</title>
                      <colophon source="221vb" n="book IV">Et hec de quarto, anno Domini
@@ -1158,43 +1158,43 @@
 
                   </msItem>
 
-                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_Cent.V47_QdC">
+                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47_QdC">
                      <locus from="263ra" to="291rb"/>
                      <title ref="workID">QdC</title>
                   </msItem>
 
-                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_Cent.V47_QdG">
+                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47_QdG">
                      <locus from="291va" to="314rb"/>
                      <title ref="workID">QdG</title>
                   </msItem>
 
-                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_Cent.V47_QdA">
+                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47_QdA">
                      <locus from="315ra" to="353vb"/>
                      <title ref="workID">QdA</title>
                      <colophon source="352vb">anno Domini 1468, in die sancti Ambrosii</colophon>
                   </msItem>
 
-                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_Cent.V47_QsMete">
+                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47_QsMete">
                      <locus from="354ra" to="381ra"/>
                      <title ref="workID">QsMete</title>
                   </msItem>
 
-                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_Cent.V47_QdSen">
+                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47_QdSen">
                      <locus from="390ra" to="401va"/>
                      <title ref="workID">QdSen</title>
                   </msItem>
 
-                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_Cent.V47_QdMem">
+                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47_QdMem">
                      <locus from="401vb" to="404vb"/>
                      <title ref="workID">QdMem</title>
                   </msItem>
 
-                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_Cent.V47_QdSom">
+                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47_QdSom">
                      <locus from="405ra" to="409va"/>
                      <title ref="workID">QdSom</title>
                   </msItem>
 
-                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_Cent.V47_QdLong">
+                  <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47_QdLong">
                      <locus from="409vb" to="411rb"/>
                      <title ref="workID">QdLong</title>
                      <colophon source="412ra">finitum per me Johannem Ceyll, anno Domini
@@ -1443,7 +1443,7 @@
             </msDesc>
 
             <!-- Reims, Bibliothèque Carnegie (Bibliothèque municipale), 897 (I. 678) issue#33-->
-            <msDesc xml:id="Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I.678">               
+            <msDesc xml:id="Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I678">                                   
                <msIdentifier>
                   <settlement>Reims</settlement>
                   <repository>Bibliothèque Carnegie (Bibliothèque municipale)</repository>
@@ -1452,7 +1452,7 @@
                </msIdentifier>
                <msContents>
                   <summary>None</summary>
-                  <msItem xml:id="Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I.678_QsMeta">
+                  <msItem xml:id="Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I678_QsMeta">
                      <locus from="2r" to="65v"/>
                      <title ref="workID">QsMeta I–VI</title>
                      <colophon source="11vb" n="book I">Et hec de questione, et per consequens de
@@ -1479,7 +1479,7 @@
                         michi carpere dogmata fronte, servulus indignus si poscit hoc, esto
                         benignus. Iohannes Abbatis <metamark function="signum"/></colophon>
                   </msItem>
-                  <msItem xml:id="Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I.678_QsE">
+                  <msItem xml:id="Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I678_QsE">
                      <locus from="74r" to="138"/>
                      <title ref="workID">QsE I–VI</title>
                      <colophon source="99ra" n="book II">Et hec de questione, et per consequens de
@@ -1501,7 +1501,7 @@
                         esse laborem. Tres digiti scribunt, cetera membra dolent.</colophon>
                   </msItem>
                   <msItem
-                     xml:id="Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I.678_Sincathegereumata">
+                     xml:id="Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I678_Sincathegereumata">
                      <locus from="139" to="168"/>
                      <title ref="workID">Sincathegereumata</title>
                      <note type="attribution">To these colophons of the texts ascribed to Versoris,
